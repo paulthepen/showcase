@@ -11,7 +11,7 @@
 
 <style scoped>
 #hud-container {
-  --size: 35px;
+  --size: 50px;
   clip-path: polygon(
       var(--size) 0,
       calc(100% - var(--size)) 0,
@@ -24,7 +24,7 @@
   );
   width: 100%;
   max-width: 700px;
-  height: 100px;
+  height: 125px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -69,7 +69,7 @@
 }
 
 #planet-selector {
-  --size: 35px;
+  --size: 50px;
   clip-path: polygon(
       var(--size) 0,
       calc(100% - var(--size)) 0,
