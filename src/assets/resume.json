@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "theme": "elegant"
+  },
+  "basics": {
+    "name": "Paul Charpie",
+    "label": "Software Developer",
+    "picture": "https://i.imgur.com/qImDQZv.png",
+    "image": "https://i.imgur.com/qImDQZv.png",
+    "email": "paulcharpie@gmail.com",
+    "phone": "(865) 255-4239",
+    "summary": "Experienced Software Developer and father who values integrity and desires a thorough knowledge of his\n            profession. A passionate, patient, and adaptable quick learner with excellent technical skills, and who\n            excels at creating and executing a plan both independently and as part of a team.",
+    "location": {
+      "address": "186 County Rd 342",
+      "postalCode": "TN 37874",
+      "city": "Sweetwater",
+      "countryCode": "US",
+      "region": "Tennessee"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "paulcharpie",
+      "url": "https://www.linkedin.com/in/paulcharpie"
+    }]
+  },
+  "work": [{
+    "name": "Hawkins Computer Services",
+    "position": "Full Stack Developer",
+    "url": "https://bookonthebrightside.com",
+    "startDate": "2022-04-16",
+    "endDate": "2025-06-25",
+    "summary": "Developed and maintained Brightside Rental Management Software - a GWT-based program - as a primary deliverable with a team of 4 developers. Spearheaded efforts to incorporate TDD into legacy code. Contributed to refactoring of codebase into Vue.js. Introduced Lean development principles including Agile methodologies utilizing a combination of Scrum and Kanban approaches as well as introducing code review processes. Created a universal integration plugin that uses Vue to communicate with the Brightside API for 80+ clients. Designed and maintained multiple website with a mixture of Wordpress, Concrete CMS, and native PHP. Maintained projects using Bitbucket and git. Provided support and training as well as knowledgebase documentation for deliverables.",
+    "highlights": [
+      "Worked with multiple stacks simultaneously",
+      "Introduced TDD",
+      "Gained experience in web design and SEO concepts",
+      "Can work collectively with a team and delegate multiple deliverables"
+    ]
+  },
+    {
+      "name": "AAM, USA",
+      "position": "Full Stack Web Developer",
+      "url": "https://theaamgroup.com",
+      "startDate": "2020-12-01",
+      "endDate": "2022-04-13",
+      "summary": "Designed and maintained multiple web-based applications with a team of 10 members that is consumed by hundreds of automotive installers across the continent. Applications used a combination of PHP, JS, MySQL, and React in an MVC framework. Microsoft communication apps were used as well as Github to coordinate programming tasks.",
+      "highlights": [
+        "Worked with stakeholders and superiors to meet program requirements",
+        "Became proficient with a wide variety of web development processes",
+        "Can work collectively with a large team"
+      ]
+    },
+    {
+      "name": "Unbound Digital",
+      "position": "Help Desk Manager/Office 365 Admin",
+      "url": "https://unbounddigital.net",
+      "startDate": "2018-05-01",
+      "endDate": "2020-11-30",
+      "summary": "Managed Help Desk team as it quintupled in size from 1 to 5 members. Developed and documented standard workflows and designed performance metrics to determine KPQs and KPIs. Installed computer systems in a wide range of office and residential locations, including individual PCs, client/server workstations, and peer to peer clients, and configured network settings accordingly.",
+      "highlights": [
+        "Monitored and maintained 1400+ devices across 100+ clients",
+        "Coordinated with clients to develop requirements, expectations, and manage projects",
+        "Successfully communicated technical issues and terms to laymen"
+      ]
+    },
+    {
+      "name": "Premier Dental Lab",
+      "position": "Digital Dentistry inLab Specialist",
+      "url": "https://premierdentalarts.net",
+      "startDate": "2017-02-01",
+      "endDate": "2018-04-30",
+      "summary": "Worked with Dentsply inLab CAD/CAM software, scanner, and mill to design and create fixed and \nremovable dental prostheses. Worked with two different brands of highly accurate 3d printers to fabricate \nvarious prosthetics. Also performed general maintenance of computers, devices, and network.",
+      "highlights": [
+        "Became comfortable meeting intense dealines",
+        "Learned to adapt to unorthodox situations and became unafraid of research"
+      ]
+    },
+    {
+      "name": "Gray Station Dental",
+      "position": "Lead Dental Assistant",
+      "url": "https://graystationdental.com",
+      "startDate": "2007-02-01",
+      "endDate": "2017-02-28",
+      "summary": "Spearheaded a team to support the dentist in treating patients, collecting payment, and working with \ninsurance. Installed computer workstations, printers, monitors, servers, and dental equipment as needed. \nWorked with patients to ensure they received adequate information and care.",
+      "highlights": [
+        "Worked efficiently under direct supervision",
+        "Managed 6 simultaneously projects with a team of 3",
+        "Learned documentation skills that exceed healthcare requirements"
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "Southern New Hampshire University",
+    "url": "https://www.snhu.edu/",
+    "area": "Computer Science",
+    "studyType": "Bachelor's of Science",
+    "startDate": "2018-01-01",
+    "endDate": "2019-08-01"
+  }],
+  "skills": [{
+    "name": "Software Development",
+    "level": "Intermediate",
+    "keywords": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Python",
+      "Java",
+      "PHP",
+      "Typescript",
+      "MySQL",
+      "React",
+      "Vue",
+      "FastAPI",
+      "JQuery",
+      "Three.js",
+      "Docker",
+      "Git",
+      "Github",
+      "Bitbucket"
+    ]
+  }]
+}
