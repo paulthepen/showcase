@@ -13,12 +13,14 @@ export default function setScene() {
     renderer.setSize(w, h);
     document.getElementById("spaceScene")?.appendChild(renderer.domElement);
 
+    const planets = setPlanets();
+
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.enableZoom = false;
 
     scene.add(setBackground());
-    const ufo = setUFO();
+    const {ufoGroup, ufoMesh} = setUFO();
 
     const keyState = {};
     document.addEventListener("keydown", (e) => {
@@ -28,37 +30,81 @@ export default function setScene() {
         keyState[e.code] = false;
     });
 
-    const speed = 0.05; // Adjust for desired feel
+    const speed = 0.12; // Adjust for desired feel
 
-    scene.add(ufo);
+    scene.add(ufoGroup);
+
+    planets.forEach(planet => {
+        scene.add(planet);
+    })
 
     function animate(t=0) {
         requestAnimationFrame(animate);
 
+        const maxBank = 0.4;
+        const bankSpeed = 0.1;
+
         if (keyState["ArrowUp"]) {
-            ufo.position.x -= Math.sin(ufo.rotation.y) * speed;
-            ufo.position.z -= Math.cos(ufo.rotation.y) * speed;
+            ufoGroup.position.x -= Math.sin(ufoGroup.rotation.y) * speed;
+            ufoGroup.position.z -= Math.cos(ufoGroup.rotation.y) * speed;
         }
         if (keyState["ArrowDown"]) {
-            ufo.position.x += Math.sin(ufo.rotation.y) * speed;
-            ufo.position.z += Math.cos(ufo.rotation.y) * speed;
+            ufoGroup.position.x += Math.sin(ufoGroup.rotation.y) * speed;
+            ufoGroup.position.z += Math.cos(ufoGroup.rotation.y) * speed;
         }
-        if (keyState["ArrowLeft"]) ufo.rotation.y -= 0.03;
-        if (keyState["ArrowRight"]) ufo.rotation.y += 0.03;
-        if (keyState["Space"]) ufo.position.y += speed;
-        if (keyState["ShiftLeft"] || keyState["ShiftRight"]) ufo.position.y -= speed;
+        if (keyState["ArrowLeft"]) ufoGroup.rotation.y += 0.03;
+        if (keyState["ArrowRight"]) ufoGroup.rotation.y -= 0.03;
+        if (keyState["Space"]) ufoGroup.position.y += speed;
+        if (keyState["ShiftLeft"] || keyState["ShiftRight"]) ufoGroup.position.y -= speed;
 
-        // camera.position.z = ufo.position.z + 10;
-        // camera.position.y = ufo.position.y + 3;
-        // camera.lookAt(ufo.position);
+        let targetBank = 0;
+        if (keyState["ArrowLeft"]) targetBank = -maxBank;
+        else if (keyState["ArrowRight"]) targetBank = maxBank;
+        ufoMesh.rotation.y += (targetBank - ufoMesh.rotation.y) * bankSpeed;
 
-        ufo.rotation.z = t * 0.0009;
+        camera.position.x = ufoGroup.position.x + Math.sin(ufoGroup.rotation.y)*10;
+        camera.position.y = ufoGroup.position.y + 3;
+        camera.position.z = ufoGroup.position.z + Math.cos(ufoGroup.rotation.y)*10;
+        camera.lookAt(ufoGroup.position);
+
+        ufoMesh.rotation.z = t * 0.0008;
         renderer.render(scene, camera);
     }
     animate();
 }
 
+const setPlanets = () => {
+    const loadTexture = (url) => {
+        const loader = new THREE.TextureLoader();
+        return loader.load(url);
+    };
+
+    const planets = [];
+    const planetData = [
+        { name: "About Me", position: new THREE.Vector3(30, 0, -30), texture: 'about.jpg' },
+        { name: "Portfolio", position: new THREE.Vector3(-65, 5, -70), texture: 'portfolio.jpg' },
+        { name: "Resume", position: new THREE.Vector3(80, -20, -40), texture: 'resume.jpg' },
+    ];
+
+    planetData.forEach(planet => {
+        const geometry = new THREE.SphereGeometry(6, 32, 32);
+        const material = new THREE.MeshStandardMaterial({
+            map: planet.texture ? loadTexture(planet.texture) : undefined,
+            color: planet.texture ? 0xffffff : 0x999999, // fallback color
+        });
+
+        const planetObj = new THREE.Mesh(geometry, material);
+        planetObj.position.copy(planet.position);
+        planetObj.name = planet.name;
+        planets.push(planetObj);
+    });
+
+    return planets;
+
+}
+
 const setUFO = () => {
+    const ufoGroup = new THREE.Group();
     const curve = new THREE.EllipseCurve(0, 0, 1.5, 1.5, 0, 2 * Math.PI, false, 1);
     const curveSmall = new THREE.EllipseCurve(0, 0, .1, .1, 0, 1.9 * Math.PI, false, 1);
     const points = curve.getPoints(50);
@@ -90,7 +136,9 @@ const setUFO = () => {
     ufo.add(cockpit);
     ufo.rotation.x = -Math.PI / 2;
 
-    return ufo;
+    ufoGroup.add(ufo);
+
+    return {ufoGroup, ufoMesh: ufo};
 };
 
 const setBackground = () => {
