@@ -30,7 +30,7 @@ export default function setScene() {
         keyState[e.code] = false;
     });
 
-    const speed = 0.12; // Adjust for desired feel
+    const speed = 0.2; // Adjust for desired feel
 
     scene.add(ufoGroup);
 
@@ -43,6 +43,17 @@ export default function setScene() {
 
         const maxBank = 0.4;
         const bankSpeed = 0.1;
+
+        planets.forEach(planet => {
+            const distance = ufoGroup.position.distanceTo(planet.position);
+            const threshold = planet.radius + 5;
+
+            if (distance < threshold) {
+                console.log(`You're near ${planet.name}`);
+                // TODO: trigger panel, highlight, pause movement, etc.
+
+            }
+        });
 
         if (keyState["ArrowUp"]) {
             ufoGroup.position.x -= Math.sin(ufoGroup.rotation.y) * speed;
@@ -81,13 +92,13 @@ const setPlanets = () => {
 
     const planets = [];
     const planetData = [
-        { name: "About Me", position: new THREE.Vector3(30, 0, -30), texture: 'about.jpg' },
-        { name: "Portfolio", position: new THREE.Vector3(-65, 5, -70), texture: 'portfolio.jpg' },
-        { name: "Resume", position: new THREE.Vector3(80, -20, -40), texture: 'resume.jpg' },
+        { name: "About Me", position: new THREE.Vector3(30, 0, -30), texture: './src/assets/imgs/mars.jpg', radius: 6 },
+        { name: "Portfolio", position: new THREE.Vector3(-65, 5, -70), texture: './src/assets/imgs/jupiter.jpg', radius: 16 },
+        { name: "Resume", position: new THREE.Vector3(80, -20, -40), texture: '/src/assets/imgs/neptune.jpg', radius: 5 },
     ];
 
     planetData.forEach(planet => {
-        const geometry = new THREE.SphereGeometry(6, 32, 32);
+        const geometry = new THREE.SphereGeometry(planet.radius, 32, 32);
         const material = new THREE.MeshStandardMaterial({
             map: planet.texture ? loadTexture(planet.texture) : undefined,
             color: planet.texture ? 0xffffff : 0x999999, // fallback color
@@ -96,6 +107,7 @@ const setPlanets = () => {
         const planetObj = new THREE.Mesh(geometry, material);
         planetObj.position.copy(planet.position);
         planetObj.name = planet.name;
+        planetObj.radius = planet.radius;
         planets.push(planetObj);
     });
 
@@ -146,8 +158,8 @@ const setBackground = () => {
     const starsGeometry = new THREE.BufferGeometry();
     const starsMaterial = new THREE.PointsMaterial({ color: 0xffffff, size: 0.1 });
     const starsVertices = [];
-    for (let i = 0; i < 5000; i++) {
-        starsVertices.push((Math.random() - 0.5) * 200, (Math.random() - 0.5) * 200, (Math.random() - 0.5) * 200);
+    for (let i = 0; i < 9000; i++) {
+        starsVertices.push((Math.random() - 0.5) * 400, (Math.random() - 0.5) * 400, (Math.random() - 0.5) * 400);
     }
     starsGeometry.setAttribute("position", new THREE.Float32BufferAttribute(starsVertices, 3));
     const stars = new THREE.Points(starsGeometry, starsMaterial);
