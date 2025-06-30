@@ -10,7 +10,7 @@ export default defineConfig({
       vue(),
       tailwindcss(),
   ],
-    base: '/paulthepen/showcase',
+    base: '/showcase',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'src')
