@@ -1,5 +1,7 @@
 import * as THREE from "three";
-import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
+import marsImg from '@/assets/imgs/mars.jpg'
+import jupiterImg from '@/assets/imgs/jupiter.jpg'
+import neptuneImg from '@/assets/imgs/neptune.jpg'
 
 export default function setScene(onPlanetEnter?: (planetName: string | null) => void) {
 //Scene Setup
@@ -14,10 +16,6 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
     document.getElementById("spaceScene")?.appendChild(renderer.domElement);
 
     const planets = setPlanets();
-
-    const controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableDamping = true;
-    controls.enableZoom = false;
 
     scene.add(setBackground());
     const {ufoGroup, ufoMesh} = setUFO();
@@ -103,9 +101,9 @@ const setPlanets = () => {
 
     const planets = [];
     const planetData = [
-        { name: "About Me", position: new THREE.Vector3(30, 0, -30), texture: './src/assets/imgs/mars.jpg', radius: 10 },
-        { name: "Portfolio", position: new THREE.Vector3(-65, 5, -70), texture: './src/assets/imgs/jupiter.jpg', radius: 25 },
-        { name: "Resume", position: new THREE.Vector3(80, -20, -40), texture: '/src/assets/imgs/neptune.jpg', radius: 8 },
+        { name: "About Me", position: new THREE.Vector3(30, 0, -30), texture: marsImg, radius: 10 },
+        { name: "Portfolio", position: new THREE.Vector3(-65, 5, -70), texture: jupiterImg, radius: 25 },
+        { name: "Resume", position: new THREE.Vector3(80, -20, -40), texture: neptuneImg, radius: 8 },
     ];
 
     planetData.forEach(planet => {

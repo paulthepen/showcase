@@ -1,3 +1,12 @@
+<script setup lang="ts">
+defineProps({
+  planetName: String,
+  visible: Boolean
+});
+const emit = defineEmits(["close"]);
+const close = () => emit("close");
+</script>
+
 <template>
   <div class="planet-info" v-if="visible">
     <div class="planet-body">
@@ -6,15 +15,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-defineProps({
-  planetName: String,
-  visible: Boolean
-});
-const emit = defineEmits(["close"]);
-const close = () => emit("close");
-</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
