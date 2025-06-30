@@ -122,7 +122,12 @@
         "Three.js",
         "Bootstrap",
         "Tailwinds",
-        "RESTful API"
+        "RESTful API",
+        "JUnit",
+        "PhpUnit",
+        "Selenium",
+        "Mockito",
+        "Cypress"
       ]
     },
     {
