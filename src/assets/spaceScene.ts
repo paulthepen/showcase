@@ -3,6 +3,10 @@ import marsImg from '@/assets/imgs/mars.jpg'
 import jupiterImg from '@/assets/imgs/jupiter.jpg'
 import neptuneImg from '@/assets/imgs/neptune.jpg'
 
+interface PlanetMesh extends THREE.Mesh {
+    radius?: number;
+}
+
 export default function setScene(onPlanetEnter?: (planetName: string | null) => void) {
 //Scene Setup
     const w = window.innerWidth;
@@ -20,7 +24,7 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
     scene.add(setBackground());
     const {ufoGroup, ufoMesh} = setUFO();
 
-    const keyState = {};
+    const keyState:Record<string, boolean> = {};
     document.addEventListener("keydown", (e) => {
         keyState[e.code] = true;
     });
@@ -46,8 +50,8 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
 
         planets.forEach(planet => {
             const distance = ufoGroup.position.distanceTo(planet.position);
-            const minThreshold = planet.radius + 5;
-            const maxThreshold = planet.radius + 10;
+            const minThreshold = planet?.radius? planet.radius + 5: 0;
+            const maxThreshold = planet?.radius? planet.radius + 10: 0;
 
             if (distance < minThreshold) {
                 const pushDir = ufoGroup.position.clone().sub(planet.position).normalize();
@@ -94,12 +98,12 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
 }
 
 const setPlanets = () => {
-    const loadTexture = (url) => {
+    const loadTexture = (url: string) => {
         const loader = new THREE.TextureLoader();
         return loader.load(url);
     };
 
-    const planets = [];
+    const planets: PlanetMesh[] = [];
     const planetData = [
         { name: "About Me", position: new THREE.Vector3(30, 0, -30), texture: marsImg, radius: 10 },
         { name: "Portfolio", position: new THREE.Vector3(-65, 5, -70), texture: jupiterImg, radius: 25 },
@@ -113,7 +117,7 @@ const setPlanets = () => {
             color: planet.texture ? 0xffffff : 0x999999, // fallback color
         });
 
-        const planetObj = new THREE.Mesh(geometry, material);
+        const planetObj = new THREE.Mesh(geometry, material) as PlanetMesh;
         planetObj.position.copy(planet.position);
         planetObj.name = planet.name;
         planetObj.radius = planet.radius;
