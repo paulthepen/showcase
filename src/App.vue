@@ -24,7 +24,7 @@ onMounted(() => {
 
 <template>
   <div id="spaceScene"></div>
-  <HUDisplay/>
+
   <Transition name="slide-down" @after-enter="displayText" @leave="hideText">
     <PlanetInfo
         v-if="currentPlanet"

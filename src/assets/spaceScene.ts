@@ -32,6 +32,68 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
         keyState[e.code] = false;
     });
 
+
+    // --- Add mobile touch controls ---
+    function createTouchButton(label: string, code: string, style: Partial<CSSStyleDeclaration>) {
+        const btn = document.createElement("button");
+        btn.innerText = label;
+        btn.style.position = "fixed";
+        btn.style.zIndex = "1000";
+        btn.style.opacity = "0.65";
+        btn.style.borderRadius = "8px";
+        btn.style.border = "none";
+        btn.style.fontSize = "18px";
+        btn.style.width = "48px";
+        btn.style.height = "48px";
+        btn.style.background = "#333";
+        btn.style.color = "#fff";
+        btn.style.touchAction = "none";
+        Object.assign(btn.style, style);
+
+        // Touch events
+        btn.addEventListener("touchstart", (e) => {
+            e.preventDefault();
+            keyState[code] = true;
+        });
+        btn.addEventListener("touchend", (e) => {
+            e.preventDefault();
+            keyState[code] = false;
+        });
+
+        // Optional: also support mouse for testing on desktop
+        btn.addEventListener("mousedown", (e) => {
+            e.preventDefault();
+            keyState[code] = true;
+        });
+        btn.addEventListener("mouseup", (e) => {
+            e.preventDefault();
+            keyState[code] = false;
+        });
+        btn.addEventListener("mouseleave", (e) => {
+            keyState[code] = false;
+        });
+
+        document.body.appendChild(btn);
+        return btn;
+    }
+
+    // Only show on small screens
+    if (window.innerWidth < 800) {
+        // Arrow keys
+        createTouchButton("▲", "ArrowUp", { left: "60px", bottom: "105px" });
+        createTouchButton("◀", "ArrowLeft", { left: "10px", bottom: "55px" });
+        createTouchButton("▼", "ArrowDown", { left: "60px", bottom: "55px" });
+        createTouchButton("▶", "ArrowRight", { left: "110px", bottom: "55px" });
+        //TODO: Font Awesome icons
+
+        // Up/Down (ascend/descend)
+        createTouchButton("+", "Space", { right: "30px", bottom: "105px", width: "64px" });
+        createTouchButton("-", "ShiftLeft", { right: "30px", bottom: "55px", width: "64px" });
+    }
+    // --- End mobile controls ---
+
+
+
     const speed = 0.4; // Adjust for desired feel
 
     scene.add(ufoGroup);
