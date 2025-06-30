@@ -21,7 +21,13 @@
       "network": "LinkedIn",
       "username": "paulcharpie",
       "url": "https://www.linkedin.com/in/paulcharpie"
-    }]
+    },
+    {
+     "network": "Facebook",
+      "username": "paulcharpie",
+      "url": "https://www.facebook.com/paul.charpie/"
+    }
+    ]
   },
   "work": [{
     "name": "Hawkins Computer Services",
@@ -99,25 +105,32 @@
   }],
   "skills": [{
     "name": "Software Development",
-    "level": "Intermediate",
+    "level": "Master",
     "keywords": [
       "HTML5",
       "CSS3",
       "JavaScript",
-      "Python",
       "Java",
       "PHP",
       "Typescript",
       "MySQL",
-      "React",
-      "Vue",
-      "FastAPI",
       "JQuery",
-      "Three.js",
-      "Docker",
       "Git",
       "Github",
       "Bitbucket"
     ]
-  }]
+  },
+  {
+    "name": "Software Development",
+    "level": "Intermediate",
+    "keyword": [
+      "Python",
+      "React",
+      "Vue",
+      "FastAPI",
+      "Three.js",
+      "Docker"
+    ]
+  }
+  ]
 }
