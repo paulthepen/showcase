@@ -4,7 +4,6 @@ defineProps({
   visible: Boolean
 });
 const emit = defineEmits(["close"]);
-const close = () => emit("close");
 </script>
 
 <template>
