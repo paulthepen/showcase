@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import {onMounted} from "vue";
 import setScene from './assets/spaceScene';
-import HUDisplay from "./components/HUDisplay.vue";
 import PlanetInfo from "./components/PlanetInfo.vue";
 import {ref, nextTick} from "vue";
 

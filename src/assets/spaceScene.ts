@@ -69,7 +69,7 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
             e.preventDefault();
             keyState[code] = false;
         });
-        btn.addEventListener("mouseleave", (e) => {
+        btn.addEventListener("mouseleave", () => {
             keyState[code] = false;
         });
 
