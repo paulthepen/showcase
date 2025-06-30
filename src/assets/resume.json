@@ -183,10 +183,11 @@
       ]
     },
     {
-      "name": "Gardening"
-    },
-    {
-      "name": "Woodworking"
+      "name": "Gardening",
+      "keywords": [
+        "Organic farming",
+        "No till"
+      ]
     }
   ]
 }
