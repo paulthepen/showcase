@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
 
-export default function setScene() {
+export default function setScene(onPlanetEnter?: (planetName: string | null) => void) {
 //Scene Setup
     const w = window.innerWidth;
     const h = window.innerHeight;
@@ -30,7 +30,7 @@ export default function setScene() {
         keyState[e.code] = false;
     });
 
-    const speed = 0.2; // Adjust for desired feel
+    const speed = 0.4; // Adjust for desired feel
 
     scene.add(ufoGroup);
 
@@ -44,16 +44,27 @@ export default function setScene() {
         const maxBank = 0.4;
         const bankSpeed = 0.1;
 
+        let closestPlanet = null;
+
         planets.forEach(planet => {
             const distance = ufoGroup.position.distanceTo(planet.position);
-            const threshold = planet.radius + 5;
+            const minThreshold = planet.radius + 5;
+            const maxThreshold = planet.radius + 10;
 
-            if (distance < threshold) {
-                console.log(`You're near ${planet.name}`);
-                // TODO: trigger panel, highlight, pause movement, etc.
+            if (distance < minThreshold) {
+                const pushDir = ufoGroup.position.clone().sub(planet.position).normalize();
 
+                ufoGroup.position.copy(
+                    planet.position.clone().add(pushDir.multiplyScalar(minThreshold + .5))
+                );
+            }
+
+            if (distance < maxThreshold) {
+                closestPlanet = planet.name;
             }
         });
+
+        if (onPlanetEnter) onPlanetEnter(closestPlanet);
 
         if (keyState["ArrowUp"]) {
             ufoGroup.position.x -= Math.sin(ufoGroup.rotation.y) * speed;
@@ -92,9 +103,9 @@ const setPlanets = () => {
 
     const planets = [];
     const planetData = [
-        { name: "About Me", position: new THREE.Vector3(30, 0, -30), texture: './src/assets/imgs/mars.jpg', radius: 6 },
-        { name: "Portfolio", position: new THREE.Vector3(-65, 5, -70), texture: './src/assets/imgs/jupiter.jpg', radius: 16 },
-        { name: "Resume", position: new THREE.Vector3(80, -20, -40), texture: '/src/assets/imgs/neptune.jpg', radius: 5 },
+        { name: "About Me", position: new THREE.Vector3(30, 0, -30), texture: './src/assets/imgs/mars.jpg', radius: 10 },
+        { name: "Portfolio", position: new THREE.Vector3(-65, 5, -70), texture: './src/assets/imgs/jupiter.jpg', radius: 25 },
+        { name: "Resume", position: new THREE.Vector3(80, -20, -40), texture: '/src/assets/imgs/neptune.jpg', radius: 8 },
     ];
 
     planetData.forEach(planet => {

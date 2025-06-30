@@ -46,6 +46,7 @@
   transform: translateX(-50%);
   bottom: 0;
   padding: 6px 6px 0 6px;
+  z-index: 1;
 }
 
 #planet-selector-container::before {
