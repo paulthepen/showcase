@@ -103,34 +103,90 @@
     "startDate": "2018-01-01",
     "endDate": "2019-08-01"
   }],
-  "skills": [{
-    "name": "Software Development",
-    "level": "Master",
-    "keywords": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Java",
-      "PHP",
-      "Typescript",
-      "MySQL",
-      "JQuery",
-      "Git",
-      "Github",
-      "Bitbucket"
-    ]
-  },
-  {
-    "name": "Software Development",
-    "level": "Intermediate",
-    "keyword": [
-      "Python",
-      "React",
-      "Vue",
-      "FastAPI",
-      "Three.js",
-      "Docker"
-    ]
-  }
+  "skills": [
+    {
+      "name": "Languages/Frameworks",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Java",
+        "PHP",
+        "Typescript",
+        "MySQL",
+        "JQuery",
+        "Python",
+        "React",
+        "Vue",
+        "FastAPI",
+        "Three.js",
+        "Bootstrap",
+        "Tailwinds",
+        "RESTful API"
+      ]
+    },
+    {
+      "name": "SDLC/DevOps Tools",
+      "keywords": [
+        "Docker",
+        "Git",
+        "Github",
+        "Bitbucket",
+      ]
+    },
+    {
+      "name": "Platforms",
+      "keywords": [
+        "Windows 9x-10",
+        "Windows Server 2012-2019",
+        "Microsoft 365",
+        "GSuites",
+        "Linux",
+        "MaxOS",
+        "Hyper-V",
+        "Wordpress",
+        "Concrete CMS",
+        "Bitdefender",
+        "Sentinel One"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "keywords": [
+        "Auto Task",
+        "ClickUp",
+        "monday.com",
+        "Asana",
+        "Repairshopr",
+        "Solarwinds"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "keywords": [
+        "Unifi/Ubiquiti Systems",
+        "VOIP Systems",
+        "Sonicwall",
+        "PC Repair",
+        "Mac Repair"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Playing music",
+      "keywords": [
+        "Guitar",
+        "Piano",
+        "Voice",
+        "Brass"
+      ]
+    },
+    {
+      "name": "Gardening"
+    },
+    {
+      "name": "Woodworking"
+    }
   ]
 }
