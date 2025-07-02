@@ -114,16 +114,16 @@
       "description": "Currently pursuing AWS certification with live EC2 deployment projects in progress"
     },
     {
+      "name": "Concrete CMS Docker Container",
+      "endDate": "2024-10-01",
+      "description": "A fully functional Concrete CMS installation packaged into a Dockerized deployment stack using docker-compose, designed for rapid and consistent rollout across multiple client environments.",
+      "url": "https://paulthepen.github.io/lightsOut/"
+    },
+    {
       "name": "Bootstrap Showcase",
       "endDate": "2023-08-30",
       "description": "Sample static website that illustrates understanding of bootstrap css and js usage.",
       "url": "https://paulthepen.github.io/ebookbootstrap/"
-    },
-    {
-      "name": "Vue Snake",
-      "endDate": "2022-07-21",
-      "description": "A simple \"snake game\" written in Vue as showcase/learning exercise. It's a nice piece of nostalgia, too, if you're yearning for your indestructible Nokia phone or TI-83 calculator...",
-      "url": "https://paulthepen.github.io/vueSnake/"
     },
     {
       "name": "Lights Out",
@@ -132,10 +132,10 @@
       "url": "https://paulthepen.github.io/lightsOut/"
     },
     {
-      "name": "Concrete CMS Docker Container",
-      "endDate": "2024-10-01",
-      "description": "A fully functional Concrete CMS installation packaged into a Dockerized deployment stack using docker-compose, designed for rapid and consistent rollout across multiple client environments.",
-      "url": "https://paulthepen.github.io/lightsOut/"
+      "name": "Vue Snake",
+      "endDate": "2022-07-21",
+      "description": "A simple \"snake game\" written in Vue as showcase/learning exercise. It's a nice piece of nostalgia, too, if you're yearning for your indestructible Nokia phone or TI-83 calculator...",
+      "url": "https://paulthepen.github.io/vueSnake/"
     }
   ],
   "skills": [
