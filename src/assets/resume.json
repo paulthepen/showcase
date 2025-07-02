@@ -41,7 +41,7 @@
     "url": "https://bookonthebrightside.com",
     "startDate": "2022-04-16",
     "endDate": "2025-06-25",
-    "summary": "Developed and maintained Brightside Rental Management Software - a GWT-based program - as a primary deliverable with a team of 4 developers. Spearheaded efforts to incorporate TDD into legacy code. Contributed to refactoring of codebase into Vue.js. Introduced Lean development principles including Agile methodologies utilizing a combination of Scrum and Kanban approaches as well as introducing code review processes. Created a universal integration plugin that uses Vue to communicate with the Brightside API for 80+ clients. Designed and maintained multiple website with a mixture of Wordpress, Concrete CMS, and native PHP. Maintained projects using Bitbucket and git. Provided support and training as well as knowledgebase documentation for deliverables.",
+    "summary": "Developed and maintained Brightside Rental Management Software - a GWT-based program - as a primary deliverable with a team of 4 developers. Spearheaded efforts to incorporate TDD into legacy code. Contributed to refactoring of codebase into Vue.js. Introduced Lean development principles including Agile methodologies utilizing a combination of Scrum and Kanban approaches as well as introducing code review processes. Created a universal integration plugin that uses Vue to communicate with the Brightside API for 80+ clients. Designed and maintained multiple websites with a mixture of Wordpress, Concrete CMS, and native PHP. Maintained projects using Bitbucket and git. Provided support and training as well as knowledgebase documentation for deliverables.",
     "highlights": [
       "Worked with multiple stacks simultaneously",
       "Introduced TDD",
@@ -81,9 +81,9 @@
       "url": "https://premierdentalarts.net",
       "startDate": "2017-02-01",
       "endDate": "2018-04-30",
-      "summary": "Worked with Dentsply inLab CAD/CAM software, scanner, and mill to design and create fixed and \nremovable dental prostheses. Worked with two different brands of highly accurate 3d printers to fabricate \nvarious prosthetics. Also performed general maintenance of computers, devices, and network.",
+      "summary": "Worked with Dentsply inLab CAD/CAM software, scanner, and mill to design and create fixed and removable dental prostheses. Worked with two different brands of highly accurate 3d printers to fabricate various prosthetics. Also performed general maintenance of computers, devices, and network.",
       "highlights": [
-        "Became comfortable meeting intense dealines",
+        "Became comfortable meeting intense deadlines",
         "Learned to adapt to unorthodox situations and became unafraid of research"
       ]
     },
@@ -110,10 +110,10 @@
   }],
   "projects": [
     {
-      "description": "Currently pursuing AWS certification with live EC2 deployment projects in progress"
+      "description": "Currently pursuing AWS certification with live EC2 deployment projects in progress. Deploying personal web apps using EC2, S3, and GitHub Actions for CI/CD."
     },
     {
-      "name": "Concrete CMS Docker Container",
+      "name": "Concrete CMS Docker Stack",
       "endDate": "2024-10-01",
       "description": "A fully functional Concrete CMS installation packaged into a Dockerized deployment stack using docker-compose, designed for rapid and consistent rollout across multiple client environments.",
       "url": "https://paulthepen.github.io/lightsOut/"
@@ -127,13 +127,13 @@
     {
       "name": "Lights Out",
       "endDate": "2022-07-23",
-      "description": "A simple implementation of the classic Lights Out puzzle game built with Vue.js. Tap the grid lights to toggle them and their neighbors. The goal is to turn all lights off.",
+      "description": "Recreated the classic \"Lights Out\" puzzle in Vue.js as a logic-game challenge.",
       "url": "https://paulthepen.github.io/lightsOut/"
     },
     {
       "name": "Vue Snake",
       "endDate": "2022-07-21",
-      "description": "A simple \"snake game\" written in Vue as showcase/learning exercise. It's a nice piece of nostalgia, too, if you're yearning for your indestructible Nokia phone or TI-83 calculator...",
+      "description": "Built a responsive Snake game in Vue.js as a component-driven learning exercise.",
       "url": "https://paulthepen.github.io/vueSnake/"
     }
   ],
