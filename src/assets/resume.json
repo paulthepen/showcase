@@ -17,16 +17,22 @@
       "countryCode": "US",
       "region": "Tennessee"
     },
-    "profiles": [{
-      "network": "LinkedIn",
-      "username": "paulcharpie",
-      "url": "https://www.linkedin.com/in/paulcharpie"
-    },
-    {
-     "network": "Facebook",
-      "username": "paulcharpie",
-      "url": "https://www.facebook.com/paul.charpie/"
-    }
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "paulcharpie",
+        "url": "https://www.linkedin.com/in/paulcharpie"
+      },
+      {
+        "network": "Facebook",
+        "username": "paulcharpie",
+        "url": "https://www.facebook.com/paul.charpie/"
+      },
+      {
+        "network": "Github",
+        "username": "paulthepen",
+        "url": "https://github.com/paulthepen"
+      }
     ]
   },
   "work": [{
@@ -87,9 +93,8 @@
       "url": "https://graystationdental.com",
       "startDate": "2007-02-01",
       "endDate": "2017-02-28",
-      "summary": "Spearheaded a team to support the dentist in treating patients, collecting payment, and working with \ninsurance. Installed computer workstations, printers, monitors, servers, and dental equipment as needed. \nWorked with patients to ensure they received adequate information and care.",
+      "summary": "Prior to tech, led a dental team for 10+ years, managing equipment installs, schedules, and patient care.",
       "highlights": [
-        "Worked efficiently under direct supervision",
         "Managed 6 simultaneous schedules with a team of 3",
         "Learned documentation skills that exceed healthcare requirements"
       ]
@@ -103,12 +108,17 @@
     "startDate": "2018-01-01",
     "endDate": "2019-08-01"
   }],
+  "projects": [
+    {
+      "description": "Deployed Vue and Bootstrap sites to GitHub Pages; currently pursuing AWS certification with live EC2 deployment projects in progress"
+    }
+  ],
   "skills": [
     {
       "name": "Languages/Frameworks",
       "keywords": [
-        "HTML5",
-        "CSS3",
+        "HTML",
+        "CSS",
         "JavaScript",
         "Java",
         "PHP",
@@ -122,7 +132,12 @@
         "Three.js",
         "Bootstrap",
         "Tailwinds",
-        "RESTful API",
+        "RESTful API"
+      ]
+    },
+    {
+      "name": "Testing",
+      "keywords": [
         "JUnit",
         "PhpUnit",
         "Selenium",
@@ -142,17 +157,14 @@
     {
       "name": "Platforms",
       "keywords": [
-        "Windows 9x-10",
-        "Windows Server 2012-2019",
         "Microsoft 365",
-        "GSuites",
+        "GSuite",
         "Linux",
-        "MaxOS",
+        "MacOS",
+        "Windows",
         "Hyper-V",
         "Wordpress",
-        "Concrete CMS",
-        "Bitdefender",
-        "Sentinel One"
+        "Concrete CMS"
       ]
     },
     {
@@ -174,6 +186,12 @@
         "Sonicwall",
         "PC Repair",
         "Mac Repair"
+      ]
+    },
+    {
+      "name": "Learning",
+      "keyword": [
+        "AWS (pursuing certification"
       ]
     }
   ],
