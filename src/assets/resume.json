@@ -114,25 +114,21 @@
     },
     {
       "name": "Bootstrap Showcase",
-      "startDate": "2023-08-30",
       "description": "Sample static website that illustrates understanding of bootstrap css and js usage.",
       "url": "https://paulthepen.github.io/ebookbootstrap/"
     },
     {
       "name": "Vue Snake",
-      "startDate": "2022-07-21",
       "description": "A simple \"snake game\" written in Vue as showcase/learning exercise. It's a nice piece of nostalgia, too, if you're yearning for your indestructible Nokia phone or TI-83 calculator...",
       "url": "https://paulthepen.github.io/vueSnake/"
     },
     {
       "name": "Lights Out",
-      "startDate": "2022-07-23",
       "description": "A simple implementation of the classic Lights Out puzzle game built with Vue.js. Tap the grid lights to toggle them and their neighbors. The goal is to turn all lights off.",
       "url": "https://paulthepen.github.io/lightsOut/"
     },
     {
       "name": "Concrete CMS Docker Container",
-      "startDate": "2024-10-01",
       "description": "A fully functional Concrete CMS installation packaged into a Dockerized deployment stack using docker-compose, designed for rapid and consistent rollout across multiple client environments.",
       "url": "https://paulthepen.github.io/lightsOut/"
     }
