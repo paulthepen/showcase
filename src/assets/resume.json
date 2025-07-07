@@ -41,12 +41,13 @@
     "url": "https://bookonthebrightside.com",
     "startDate": "2022-04-16",
     "endDate": "2025-06-25",
-    "summary": "Developed and maintained Brightside Rental Management Software - a GWT-based program - as a primary deliverable with a team of 4 developers. Spearheaded efforts to incorporate TDD into legacy code. Contributed to refactoring of codebase into Vue.js. Introduced Lean development principles including Agile methodologies utilizing a combination of Scrum and Kanban approaches as well as introducing code review processes. Created a universal integration plugin that uses Vue to communicate with the Brightside API for 80+ clients. Designed and maintained multiple websites with a mixture of Wordpress, Concrete CMS, and native PHP. Maintained projects using Bitbucket and git. Provided support and training as well as knowledgebase documentation for deliverables.",
+    "summary": "Developed and maintained Brightside Rental Management Software, a complex Java-based system built with GWT, serving as a core contributor on a 4-person dev team. Led efforts to implement Test-Driven Development (TDD) in a legacy codebase and collaborated on refactoring Java modules to improve performance and reliability.\n\nArchitected and implemented six third-party API integrations (REST, GraphQL, and custom protocols), enabling seamless data flow between Brightside and external platforms. Partnered with another developer to initiate a complete front-end overhaul from GWT to Vue.js, modernizing the user experience and improving development velocity.\n\nChampioned Agile and Lean development practices, combining Scrum and Kanban approaches. Introduced structured code review processes and Git-based workflows to improve code quality and team collaboration. Built and maintained multiple client websites using WordPress, Concrete CMS, and native PHP, and authored internal documentation and training materials for ongoing support.",
     "highlights": [
-      "Worked with multiple stacks simultaneously",
-      "Introduced TDD",
-      "Gained experience in web design and SEO concepts",
-      "Can work collectively with a team and delegate multiple deliverables"
+      "Maintained enterprise Java/GWT rental management app; refactored legacy code and implemented TDD",
+      "Built 6 third-party integrations (REST, GraphQL, and custom APIs)",
+      "Co-led front-end migration from GWT to Vue.js for modernized UI",
+      "Introduced Agile (Scrum/Kanban) workflows and team-wide code reviews",
+      "Developed and maintained client websites (WordPress, Concrete CMS, PHP)"
     ]
   },
     {
@@ -55,11 +56,12 @@
       "url": "https://theaamgroup.com",
       "startDate": "2020-12-01",
       "endDate": "2022-04-13",
-      "summary": "Designed and maintained multiple web-based applications with a team of 10 members that is consumed by hundreds of automotive installers across the continent. Applications used a combination of PHP, JS, MySQL, and React in an MVC framework. Microsoft communication apps were used as well as Github to coordinate programming tasks.",
+      "summary": "Designed and maintained multiple production-grade web applications for hundreds of automotive installers across North America, collaborating within a 10-person development team. Personally led the overhaul of the cart and checkout system in the company’s flagship product, significantly improving performance, UX, and maintainability.\n\nWorked alongside the lead developer to architect and launch a next-generation point-of-sale (POS) platform, built with React and TypeScript, introducing modern design patterns and enhanced real-time responsiveness. Applications were developed using PHP, JavaScript, MySQL, and React within a custom MVC framework.\n\nUsed GitHub for source control and task coordination, and contributed regularly to sprint planning and cross-team collaboration via Microsoft communication tools.",
       "highlights": [
-        "Worked with stakeholders and superiors to meet program requirements",
-        "Became proficient with a wide variety of web development processes",
-        "Can work collectively with a large team"
+        "Redesigned and rebuilt the flagship checkout/cart system, improving UX and maintainability",
+        "Co-designed and built a cutting-edge React/TypeScript point-of-sale platform",
+        "Developed and maintained internal and client-facing tools in PHP, JS, MySQL, and React (MVC framework)",
+        "Collaborated with 10-person dev team and multiple stakeholders using GitHub, Asana, and Microsoft Teams for agile delivery"
       ]
     },
     {
