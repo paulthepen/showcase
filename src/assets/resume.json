@@ -122,6 +122,12 @@
       "url": "https://github.com/paulthepen/concrete-docker"
     },
     {
+      "name": "Java Integration Example",
+      "endDate": "2025-07-08",
+      "description": "A sample third party integration written in Java. Meant as an educational tool - it illustrates design patterns, techniques, and best practices commonly used in Java backend projects",
+      "url": "https://github.com/paulthepen/javaSample"
+    },
+    {
       "name": "Bootstrap Showcase",
       "endDate": "2023-08-30",
       "description": "Sample static website that illustrates understanding of bootstrap css and js usage.",
