@@ -41,13 +41,14 @@
     "url": "https://bookonthebrightside.com",
     "startDate": "2022-04-16",
     "endDate": "2025-06-25",
-    "summary": "Developed and maintained Brightside Rental Management Software, a complex Java-based system built with GWT, serving as a core contributor on a 4-person dev team. Led efforts to implement Test-Driven Development (TDD) in a legacy codebase and collaborated on refactoring Java modules to improve performance and reliability.\n\nArchitected and implemented six third-party API integrations (REST, GraphQL, and custom protocols), enabling seamless data flow between Brightside and external platforms. Partnered with another developer to initiate a complete front-end overhaul from GWT to Vue.js, modernizing the user experience and improving development velocity.\n\nChampioned Agile and Lean development practices, combining Scrum and Kanban approaches. Introduced structured code review processes and Git-based workflows to improve code quality and team collaboration. Built and maintained multiple client websites using WordPress, Concrete CMS, and native PHP, and authored internal documentation and training materials for ongoing support.",
     "highlights": [
-      "Maintained enterprise apps; refactored legacy code and implemented TDD",
+      "Maintained enterprise Java/GWT rental management app",
+      "Refactored legacy code and implemented TDD company-wide",
       "Built 6 third-party integrations (REST, GraphQL, and custom APIs)",
       "Co-led front-end migration from GWT to Vue.js for modernized UI",
       "Introduced Agile (Scrum/Kanban) workflows and team-wide code reviews",
-      "Developed and maintained client websites (WordPress, Concrete CMS, PHP)"
+      "Developed and maintained client websites (WordPress, Concrete CMS, PHP)",
+      "Authored technical documentation and provided end-user training for client deliverables"
     ]
   },
     {
@@ -56,12 +57,11 @@
       "url": "https://theaamgroup.com",
       "startDate": "2020-12-01",
       "endDate": "2022-04-13",
-      "summary": "Designed and maintained multiple production-grade web applications for hundreds of automotive installers across North America, collaborating within a 10-person development team. Personally led the overhaul of the cart and checkout system in the company’s flagship product, significantly improving performance, UX, and maintainability.\n\nWorked alongside the lead developer to architect and launch a next-generation point-of-sale (POS) platform, built with React and TypeScript, introducing modern design patterns and enhanced real-time responsiveness. Applications were developed using PHP, JavaScript, MySQL, and React within a custom MVC framework.\n\nUsed GitHub for source control and task coordination, and contributed regularly to sprint planning and cross-team collaboration via Microsoft communication tools.",
       "highlights": [
-        "Redesigned and rebuilt the flagship checkout/cart system, improving UX and maintainability",
+        "Redesigned and rebuilt flagship checkout/cart system, improving UX and maintainability",
         "Co-designed and built a cutting-edge React/TypeScript point-of-sale platform",
-        "Developed and maintained internal and client-facing tools in PHP, JS, MySQL, and React (MVC framework)",
-        "Collaborated with 10-person dev team and multiple stakeholders using GitHub, Asana, and Microsoft Teams for agile delivery"
+        "Developed and maintained internal and client-facing tools using PHP, JavaScript, MySQL, and React within a custom MVC framework",
+        "Collaborated with 10-person development team using GitHub, Asana, and Microsoft Teams"
       ]
     },
     {
@@ -70,11 +70,12 @@
       "url": "https://unbounddigital.net",
       "startDate": "2018-05-01",
       "endDate": "2020-11-30",
-      "summary": "Managed Help Desk team as it quintupled in size from 1 to 5 members. Developed and documented standard workflows and designed performance metrics to determine KPQs and KPIs. Installed computer systems in a wide range of office and residential locations, including individual PCs, client/server workstations, and peer to peer clients, and configured network settings accordingly.",
       "highlights": [
-        "Monitored and maintained 1400+ devices across 100+ clients",
-        "Coordinated with clients to develop requirements, expectations, and manage projects",
-        "Successfully communicated technical issues and terms to laymen"
+        "Managed Help Desk team as it grew from 1 to 5 members",
+        "Monitored and maintained 1,400+ devices across 100+ clients",
+        "Developed workflows and KPIs to streamline internal support operations",
+        "Installed and configured systems including client/server networks and peer-to-peer devices",
+        "Communicated complex technical issues clearly to non-technical clients"
       ]
     },
     {
@@ -83,7 +84,6 @@
       "url": "https://premierdentalarts.net",
       "startDate": "2017-02-01",
       "endDate": "2018-04-30",
-      "summary": "Worked with Dentsply inLab CAD/CAM software, scanner, and mill to design and create fixed and removable dental prostheses.",
       "highlights": [
         "Designed and fabricated fixed and removable dental prostheses using Dentsply inLab CAD/CAM software",
         "Operated 3D printers and milling machines with high precision",
@@ -96,10 +96,11 @@
       "url": "https://graystationdental.com",
       "startDate": "2007-02-01",
       "endDate": "2017-02-28",
-      "summary": "Prior to tech, led a dental team for 10+ years, managing equipment installs, schedules, and patient care.",
       "highlights": [
-        "Managed 6 simultaneous schedules with a team of 3",
-        "Learned documentation skills that exceed healthcare requirements"
+        "Led 3-person team coordinating daily clinical operations and schedules across 6 treatment rooms",
+        "Managed equipment installs and documentation exceeding healthcare requirements"
+
+
       ]
     }
   ],
