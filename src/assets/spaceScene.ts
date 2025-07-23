@@ -20,7 +20,9 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
     document.getElementById("spaceScene")?.appendChild(renderer.domElement);
 
     const planets = setPlanets();
+    const waypointRing = createWaypointRing();
 
+    scene.add(waypointRing);
     scene.add(setBackground());
     const {ufoGroup, ufoMesh} = setUFO();
 
@@ -249,5 +251,17 @@ const setBackground = () => {
     sceneElements.add(light3);
 
     return sceneElements;
+}
+
+const createWaypointRing = () => {
+    const ringGeom = new THREE.RingGeometry(1, 1.5, 32);
+    const ringMat = new THREE.MeshBasicMaterial({
+        color: 0x00ffff,
+        opacity: 0.5,
+        transparent: true
+        });
+    const ring = new THREE.Mesh(ringGeom, ringMat);
+    ring.rotation.x = Math.PI / 2;
+    return ring;
 }
 
