@@ -6,6 +6,22 @@ import {ref, nextTick} from "vue";
 import info from './components/info.vue';
 
 const currentPlanet = ref<string | null>(null);
+const showInfo = ref<boolean>(true);
+const showPlanet = ref<boolean>(false);
+
+const enterPlanet = () => {
+    showInfo.value = false;
+  setTimeout(() => {
+    showPlanet.value = currentPlanet.value !== null;
+  }, 500);
+}
+
+const leavePlanet = (el: Element) => {
+  hideText(el);
+  setTimeout(() => {
+    showInfo.value = true;
+  }, 500);
+}
 
 const displayText = (el: Element) => {
   nextTick(() => {el.classList.add('expanded')})
@@ -25,7 +41,7 @@ onMounted(() => {
 <template>
   <div id="spaceScene"></div>
 
-  <Transition name="slide-down" @after-enter="displayText" @leave="hideText">
+  <Transition name="slide-down" @enter="enterPlanet" @after-enter="displayText" @leave="leavePlanet">
     <PlanetInfo
         v-if="currentPlanet"
         :visible="true"
@@ -34,9 +50,7 @@ onMounted(() => {
     />
   </Transition>
   <Transition name="slide-down2" @after-enter="displayText" @leave="hideText">
-    <div style="position: relative">
-      <info v-if="!currentPlanet" :visible="true"/>
-    </div>
+      <info v-if="showInfo" :visible="true"/>
   </Transition>
 </template>
 
@@ -53,7 +67,7 @@ body {
 
 .slide-down2-enter-active,
 .slide-down2-leave-active {
-  transition: all 0.25s ease;
+  transition: all 0.5s ease;
   color: rgba(200, 255, 255, 0.9);
 }
 

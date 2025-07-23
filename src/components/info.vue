@@ -31,7 +31,7 @@ h1 {
 
 .info {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(80, 100, 180, 0.7);
@@ -39,11 +39,11 @@ h1 {
   width: 100%;
   max-width: 600px;
   padding: .25rem .25rem;
-  border-radius: 12px 12px 0 0;
+  border-radius:0 0 12px 12px;
   color: rgba(200, 255, 255, 0.9);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.7);
-  border-bottom: none;
+  border-top: none;
   z-index: 10;
 }
 </style>
