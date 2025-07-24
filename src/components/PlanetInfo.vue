@@ -102,6 +102,7 @@ const emit = defineEmits(["close"]);
   overflow-y: auto;
   padding: 0 .5rem;
   margin-bottom: .1rem;
+  max-width: 100%;
 }
 
 a {
@@ -148,6 +149,7 @@ h3 {
   backdrop-filter: blur(3px);
   margin-bottom: 20px;
   width: 600px;
+  max-width: 90%;
   padding: 1rem .25rem;
   border-radius: 0 0 12px 12px;
   color: rgba(200, 255, 255, 0.9);

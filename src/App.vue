@@ -74,7 +74,7 @@ body {
 
 .slide-down2-enter-from,
 .slide-down2-leave-to {
-  bottom:-50%;
+  top:-50%;
   color: rgba(255,255,255,0);
 }
 
