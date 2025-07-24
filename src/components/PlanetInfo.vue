@@ -159,4 +159,13 @@ h3 {
   border-left: none;
   z-index: 10;
 }
+
+@media (max-width: 800px) {
+  .planet-info {
+    max-height: calc(100vh - 200px);
+  }
+  .planet-body {
+    max-height: calc(100vh - 225px);
+  }
+}
 </style>
