@@ -90,7 +90,7 @@ body {
 .planet-label > span {
   font-family: "Doto", sans-serif;
   border-radius: 12px;
-  padding: 8px;
+  padding: 1px 9px;
   background: rgba(80, 100, 180, 0.7);
   color: rgba(200, 255, 255, 0.9);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
