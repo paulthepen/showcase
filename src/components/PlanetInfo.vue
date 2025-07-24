@@ -13,7 +13,7 @@ const emit = defineEmits(["close"]);
     <div class="planet-body">
       <h1 style="text-align: center;">{{ planetName }}</h1>
       <div v-if="planetName === 'Portfolio'">
-        <a href="https://github.com/paulthepen">View coding projects/samples</a>
+        <a href="https://github.com/paulthepen" target="_blank">View coding projects/samples</a>
         <h3 style="text-align: center">Website Examples</h3>
         <hr/>
         <div style="display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;">
@@ -23,7 +23,7 @@ const emit = defineEmits(["close"]);
                 alt="Colonial Properties Screenshot"
                 style="width: 50%; max-width: 400px; max-height: 300px; margin: 6px;"
             />
-            <h4 style="width: 50%"><a href="https://colonialproperties.com">Colonial Properties</a></h4>
+            <h4 style="width: 50%"><a target="_blank" href="https://colonialproperties.com">Colonial Properties</a></h4>
           </div>
           <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
             <img
@@ -31,7 +31,7 @@ const emit = defineEmits(["close"]);
                 alt="Bear Camp Cabins"
                 style="width: 50%; max-width: 400px; max-height: 300px; margin: 6px;"
             />
-            <h4 style="width: 50%"><a href="https://bearcampcabins.com/">Bear Camp Cabins</a></h4>
+            <h4 style="width: 50%"><a target="_blank" href="https://bearcampcabins.com/">Bear Camp Cabins</a></h4>
           </div>
           <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
             <img
@@ -39,7 +39,7 @@ const emit = defineEmits(["close"]);
                 alt="Compass Properties"
                 style="width: 50%; max-width: 400px; max-height: 300px; margin: 6px;"
             />
-            <h4 style="width: 50%"><a href="https://www.compassvacationproperties.com/">Compass Properties</a></h4>
+            <h4 style="width: 50%"><a target="_blank" href="https://www.compassvacationproperties.com/">Compass Properties</a></h4>
           </div>
           <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
             <img
@@ -47,7 +47,7 @@ const emit = defineEmits(["close"]);
                 alt="ERA"
                 style="width: 50%; max-width: 400px; max-height: 300px; margin: 6px;"
             />
-            <h4 style="width: 50%"><a href="https://erasmokies.com/">ERA In The Smokies</a></h4>
+            <h4 style="width: 50%"><a target="_blank" href="https://erasmokies.com/">ERA In The Smokies</a></h4>
           </div>
           <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
             <img
@@ -55,7 +55,7 @@ const emit = defineEmits(["close"]);
                 alt="SMCR"
                 style="width: 50%; max-width: 400px; max-height: 300px; margin: 6px;"
             />
-            <h4 style="width: 50%"><a href="https://www.smcrentals.com/">Smoky Mountain Chalet Rentals</a></h4>
+            <h4 style="width: 50%"><a target="_blank" href="https://www.smcrentals.com/">Smoky Mountain Chalet Rentals</a></h4>
           </div>
           <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
             <img
@@ -63,7 +63,7 @@ const emit = defineEmits(["close"]);
                 alt="Destin RV Beach Resort"
                 style="width: 50%; max-width: 400px; max-height: 300px; margin: 6px;"
             />
-            <h4 style="width: 50%"><a href="https://www.destinrvresort.com">Destin RV Beach Resort</a></h4>
+            <h4 style="width: 50%"><a target="_blank" href="https://www.destinrvresort.com">Destin RV Beach Resort</a></h4>
           </div>
           <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
             <img
@@ -71,7 +71,7 @@ const emit = defineEmits(["close"]);
                 alt="Total Truck"
                 style="width: 50%; max-width: 400px; max-height: 300px; margin: 6px;"
             />
-            <h4 style="width: 50%"><a href="https://totaltruck.parts/">Total Truck Outfitter</a></h4>
+            <h4 style="width: 50%"><a target="_blank" href="https://totaltruck.parts/">Total Truck Outfitter</a></h4>
           </div>
         </div>
       </div>

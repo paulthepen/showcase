@@ -94,15 +94,15 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
     // Only show on small screens
     if (window.innerWidth < 800) {
         // Arrow keys
-        createTouchButton("▲", "ArrowUp", { left: "60px", bottom: "85px" });
-        createTouchButton("◀", "ArrowLeft", { left: "10px", bottom: "35px" });
-        createTouchButton("▼", "ArrowDown", { left: "60px", bottom: "35px" });
-        createTouchButton("▶", "ArrowRight", { left: "110px", bottom: "35px" });
+        createTouchButton("▲", "ArrowUp", { left: "60px", bottom: "75px" });
+        createTouchButton("◀", "ArrowLeft", { left: "10px", bottom: "25px" });
+        createTouchButton("▼", "ArrowDown", { left: "60px", bottom: "25px" });
+        createTouchButton("▶", "ArrowRight", { left: "110px", bottom: "25px" });
         //TODO: Font Awesome icons
 
         // Up/Down (ascend/descend)
-        createTouchButton("+", "Space", { right: "30px", bottom: "85px", width: "64px" });
-        createTouchButton("-", "ShiftLeft", { right: "30px", bottom: "35px", width: "64px" });
+        createTouchButton("+", "Space", { right: "30px", bottom: "75px", width: "64px" });
+        createTouchButton("-", "ShiftLeft", { right: "30px", bottom: "25px", width: "64px" });
     }
     // --- End mobile controls ---
 
