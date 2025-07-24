@@ -34,6 +34,18 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
         keyState[e.code] = false;
     });
 
+    function setPlanetLabels(planets: PlanetMesh[]) {
+        const labels: HTMLElement[] = [];
+        planets.forEach((planet) => {
+            const label = document.createElement("div");
+            label.className = "planet-label";
+            label.innerHTML = `&#8595; <span>${planet.name}</span>`;
+            document.getElementById("planetLabels")?.appendChild(label);
+            labels.push(label);
+            document.getElementById("planetLabels")?.appendChild(label);
+        })
+        return labels
+    }
 
     // --- Add mobile touch controls ---
     function createTouchButton(label: string, code: string, style: Partial<CSSStyleDeclaration>) {
@@ -94,7 +106,8 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
     }
     // --- End mobile controls ---
 
-
+    const labels = setPlanetLabels(planets);
+    console.log(labels);
 
     const speed = 0.4; // Adjust for desired feel
 
@@ -112,7 +125,7 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
 
         let closestPlanet = null;
 
-        planets.forEach(planet => {
+        planets.forEach((planet) => {
             const distance = ufoGroup.position.distanceTo(planet.position);
             const minThreshold = planet?.radius? planet.radius + 5: 0;
             const maxThreshold = planet?.radius? planet.radius + 10: 0;
@@ -156,6 +169,16 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
         camera.lookAt(ufoGroup.position);
 
         ufoMesh.rotation.z = t * 0.0008;
+
+        planets.forEach((planet, i) => {
+            const vector = planet.position.clone().project(camera);
+            const x = (vector.x + 1) / 2 * window.innerWidth;
+            const y = -(vector.y + 1) / 2 * window.innerHeight;
+            labels[i].style.left = `${x}px`;
+            labels[i].style.top = `${y - 24}px`;
+            labels[i].style.display = vector.z < 1 ? "block" : "none";
+        })
+
         renderer.render(scene, camera);
     }
     animate();
