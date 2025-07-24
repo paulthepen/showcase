@@ -40,7 +40,6 @@ onMounted(() => {
 
 <template>
   <div id="spaceScene"></div>
-  <div id="planetLabels"></div>
 
   <Transition name="slide-down" @enter="enterPlanet" @after-enter="displayText" @leave="leavePlanet">
     <PlanetInfo
@@ -85,34 +84,17 @@ body {
   color: rgba(255,255,255,0);
 }
 
-#planetLabels {
-  position: fixed;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  z-index: 10;
-}
 
-.planet-label {
-  position: absolute;
-  font-size: 14px;
-  font-family: 'Orbitron', sans-serif;
-  text-shadow: 0 1px 4px #000;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  transform: translate(-50%, 0);
-  pointer-events: none;
-  user-select: none;
-  z-index: 10;
-}
-
+</style>
+<style>
 .planet-label > span {
-  background: rgba(32,32,32, 0.7);
-  color: #fff !important;
-  border-radius: 6px;
-  padding: 2px 8px;
-  margin-left: 4px;
-}
+  font-family: "Doto", sans-serif;
+  border-radius: 12px;
+  padding: 8px;
+  background: rgba(80, 100, 180, 0.7);
+  color: rgba(200, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.7);
 
+}
 </style>

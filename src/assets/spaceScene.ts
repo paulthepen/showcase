@@ -2,6 +2,7 @@ import * as THREE from "three";
 import marsImg from '@/assets/imgs/mars.jpg'
 import jupiterImg from '@/assets/imgs/jupiter.jpg'
 import neptuneImg from '@/assets/imgs/neptune.jpg'
+import {CSS2DObject, CSS2DRenderer} from 'three/examples/jsm/renderers/CSS2DRenderer';
 
 interface PlanetMesh extends THREE.Mesh {
     radius?: number;
@@ -19,6 +20,12 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
     renderer.setSize(w, h);
     document.getElementById("spaceScene")?.appendChild(renderer.domElement);
 
+    const labelRenderer = new CSS2DRenderer();
+    labelRenderer.setSize(w, h);
+    labelRenderer.domElement.style.position = 'absolute';
+    labelRenderer.domElement.style.top = '0px';
+    document.body.appendChild(labelRenderer.domElement);
+
     const planets = setPlanets();
     const waypointRing = createWaypointRing();
 
@@ -34,17 +41,15 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
         keyState[e.code] = false;
     });
 
-    function setPlanetLabels(planets: PlanetMesh[]) {
-        const labels: HTMLElement[] = [];
-        planets.forEach((planet) => {
-            const label = document.createElement("div");
-            label.className = "planet-label";
-            label.innerHTML = `&#8595; <span>${planet.name}</span>`;
-            document.getElementById("planetLabels")?.appendChild(label);
-            labels.push(label);
-            document.getElementById("planetLabels")?.appendChild(label);
-        })
-        return labels
+    function setPlanetLabel(planet: PlanetMesh) {
+        const label = document.createElement("div");
+        label.className = "planet-label";
+        label.innerHTML = `&#8595; <span>${planet.name}</span>`;
+        label.style.color = "rgba(200, 255, 255, 0.9)";
+        const cPointLabel = new CSS2DObject(label);
+        cPointLabel.position.set(3, (planet?.radius ?? 0) + 2.5, 0);
+        planet.add(cPointLabel);
+        cPointLabel.layers.set(0);
     }
 
     // --- Add mobile touch controls ---
@@ -106,8 +111,6 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
     }
     // --- End mobile controls ---
 
-    const labels = setPlanetLabels(planets);
-    console.log(labels);
 
     const speed = 0.4; // Adjust for desired feel
 
@@ -115,6 +118,7 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
 
     planets.forEach(planet => {
         scene.add(planet);
+        setPlanetLabel(planet);
     })
 
     function animate(t=0) {
@@ -170,16 +174,8 @@ export default function setScene(onPlanetEnter?: (planetName: string | null) => 
 
         ufoMesh.rotation.z = t * 0.0008;
 
-        planets.forEach((planet, i) => {
-            const vector = planet.position.clone().project(camera);
-            const x = (vector.x + 1) / 2 * window.innerWidth;
-            const y = -(vector.y + 1) / 2 * window.innerHeight;
-            labels[i].style.left = `${x}px`;
-            labels[i].style.top = `${y - 24}px`;
-            labels[i].style.display = vector.z < 1 ? "block" : "none";
-        })
-
         renderer.render(scene, camera);
+        labelRenderer.render(scene, camera);
     }
     animate();
 }
