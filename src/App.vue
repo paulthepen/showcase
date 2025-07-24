@@ -74,13 +74,13 @@ body {
 
 .slide-down2-enter-from,
 .slide-down2-leave-to {
-  top:-50%;
+  top:-100%;
   color: rgba(255,255,255,0);
 }
 
 .slide-down-enter-from,
 .slide-down-leave-to {
-  top: -50%;
+  top: -100%;
   color: rgba(255,255,255,0);
 }
 </style>
