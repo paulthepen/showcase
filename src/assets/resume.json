@@ -229,23 +229,5 @@
         "AWS (pursuing certification"
       ]
     }
-  ],
-  "interests": [
-    {
-      "name": "Playing music",
-      "keywords": [
-        "Guitar",
-        "Piano",
-        "Voice",
-        "Brass"
-      ]
-    },
-    {
-      "name": "Gardening",
-      "keywords": [
-        "Organic farming",
-        "No till"
-      ]
-    }
   ]
 }
