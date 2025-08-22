@@ -114,7 +114,10 @@
   }],
   "projects": [
     {
-      "description": "Currently pursuing AWS certification with live EC2 deployment projects in progress. Deploying personal web apps using EC2, S3, and GitHub Actions for CI/CD."
+      "name": "Movie Search React Showcase",
+      "endDate": "2025-08-22",
+      "description": "A sample React-based movie search SPA that demonstrates the use of React, Tailwinds CSS integration, Third-party API integration, and development from a Figma design",
+      "url": "https://github.com/paulthepen/newMovieViewerReactDemo, https://paulthepen.github.io/newMovieViewerReactDemo/"
     },
     {
       "name": "Concrete CMS Docker Stack",
