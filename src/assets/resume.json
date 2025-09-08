@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "Full-Stack Web Developer | Java • Vue.js • Docker • PHP • React",
+    "label": "Technical Onboarding Manager | SaaS • Project Management • Client Success",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Experienced Software Developer and father who values integrity and desires a thorough knowledge of his profession. A passionate, patient, and adaptable quick learner with excellent technical skills, and who excels at creating and executing a plan both independently and as part of a team.",
+    "summary": "Customer-focused SaaS professional with 5+ years of experience in onboarding, project management, and technical delivery. Skilled at guiding clients through the end-to-end onboarding process, aligning internal teams, and ensuring successful deployments. Strong technical foundation in web technologies (HTML, JavaScript, APIs, Docker) with a proven ability to bridge the gap between technical and non-technical stakeholders.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -24,33 +24,28 @@
         "url": "https://www.linkedin.com/in/paulcharpie"
       },
       {
-        "network": "Facebook",
-        "username": "paulcharpie",
-        "url": "https://www.facebook.com/paul.charpie/"
-      },
-      {
         "network": "Github",
         "username": "paulthepen",
         "url": "https://github.com/paulthepen"
       }
     ]
   },
-  "work": [{
-    "name": "Hawkins Computer Services",
-    "position": "Full Stack Developer",
-    "url": "https://bookonthebrightside.com",
-    "startDate": "2022-04-16",
-    "endDate": "2025-06-25",
-    "highlights": [
-      "Maintained enterprise Java/GWT rental management app",
-      "Refactored legacy code and implemented TDD company-wide",
-      "Built 6 third-party integrations (REST, GraphQL, and custom APIs)",
-      "Co-led front-end migration from GWT to Vue.js for modernized UI",
-      "Introduced Agile (Scrum/Kanban) workflows and team-wide code reviews",
-      "Developed and maintained client websites (WordPress, Concrete CMS, PHP)",
-      "Authored technical documentation and provided end-user training for client deliverables"
-    ]
-  },
+  "work": [
+    {
+      "name": "Hawkins Computer Services (Brightside SaaS Platform)",
+      "position": "Technical Onboarding & Full Stack Developer",
+      "url": "https://bookonthebrightside.com",
+      "startDate": "2022-04-16",
+      "endDate": "2025-06-25",
+      "highlights": [
+        "Led onboarding for all new SaaS clients, serving as the primary point of contact from contract through successful deployment",
+        "Conducted kickoff calls, gathered requirements, and aligned stakeholders to ensure clear expectations and success criteria",
+        "Collaborated with cross-functional teams (strategy, analytics, development) to deliver seamless onboarding experiences",
+        "Documented processes, authored technical guides, and provided end-user training to support adoption",
+        "Built and integrated solutions using REST, GraphQL, and custom APIs, ensuring smooth technical implementation",
+        "Co-led front-end migration from GWT to Vue.js, modernizing client-facing interfaces"
+      ]
+    },
     {
       "name": "AAM, USA",
       "position": "Full Stack Web Developer",
@@ -58,24 +53,24 @@
       "startDate": "2020-12-01",
       "endDate": "2022-04-13",
       "highlights": [
-        "Redesigned and rebuilt flagship checkout/cart system, improving UX and maintainability",
-        "Co-designed and built a cutting-edge React/TypeScript point-of-sale platform",
-        "Developed and maintained internal and client-facing tools using PHP, JavaScript, MySQL, and React within a custom MVC framework",
-        "Collaborated with 10-person development team using GitHub, Asana, and Microsoft Teams"
+        "Co-designed and built a React/TypeScript point-of-sale platform for national distributors",
+        "Redesigned and rebuilt checkout/cart systems, improving usability and client satisfaction",
+        "Developed internal and client-facing tools using PHP, JavaScript, MySQL, and React within a custom MVC framework",
+        "Collaborated with 10-person development team using Agile workflows, GitHub, and Asana"
       ]
     },
     {
       "name": "Unbound Digital",
-      "position": "Help Desk Manager/Office 365 Admin",
+      "position": "Help Desk Manager / Office 365 Admin",
       "url": "https://unbounddigital.net",
       "startDate": "2018-05-01",
       "endDate": "2020-11-30",
       "highlights": [
-        "Managed Help Desk team as it grew from 1 to 5 members",
-        "Monitored and maintained 1,400+ devices across 100+ clients",
-        "Developed workflows and KPIs to streamline internal support operations",
-        "Installed and configured systems including client/server networks and peer-to-peer devices",
-        "Communicated complex technical issues clearly to non-technical clients"
+        "Managed Help Desk team growth from 1 to 5 members while overseeing 100+ client accounts",
+        "Monitored and maintained 1,400+ devices across diverse business environments",
+        "Developed onboarding workflows, KPIs, and documentation to streamline support operations",
+        "Installed and configured client/server networks, ensuring smooth technical deployments",
+        "Communicated complex technical issues clearly to non-technical stakeholders"
       ]
     },
     {
@@ -85,9 +80,8 @@
       "startDate": "2017-02-01",
       "endDate": "2018-04-30",
       "highlights": [
-        "Designed and fabricated fixed and removable dental prostheses using Dentsply inLab CAD/CAM software",
-        "Operated 3D printers and milling machines with high precision",
-        "Maintained computer systems and networked devices in a lab environment"
+        "Implemented and trained staff on advanced CAD/CAM software and 3D printing systems",
+        "Maintained lab computer systems and supported end users in a technical environment"
       ]
     },
     {
@@ -97,139 +91,57 @@
       "startDate": "2007-02-01",
       "endDate": "2017-02-28",
       "highlights": [
-        "Led 3-person team coordinating daily clinical operations and schedules across 6 treatment rooms",
-        "Managed equipment installs and documentation exceeding healthcare requirements"
-
-
+        "Led 3-person team coordinating daily clinical operations and schedules",
+        "Managed equipment installs and documentation, exceeding compliance standards"
       ]
     }
   ],
-  "education": [{
-    "institution": "Southern New Hampshire University",
-    "url": "https://www.snhu.edu/",
-    "area": "Computer Science",
-    "studyType": "Bachelor's of Science",
-    "startDate": "2018-01-01",
-    "endDate": "2019-08-01"
-  }],
-  "projects": [
+  "education": [
     {
-      "name": "Movie Search React Showcase",
-      "endDate": "2025-08-22",
-      "description": "A sample React-based movie search SPA that demonstrates the use of React, Tailwinds CSS integration, Third-party API integration, and development from a Figma design. Source code available on Github at https://github.com/paulthepen/newMovieViewerReactDemo",
-      "url": "https://paulthepen.github.io/newMovieViewerReactDemo/"
-    },
-    {
-      "name": "Concrete CMS Docker Stack",
-      "endDate": "2024-10-01",
-      "description": "A fully functional Concrete CMS installation packaged into a Dockerized deployment stack using docker-compose, designed for rapid and consistent rollout across multiple client environments.",
-      "url": "https://github.com/paulthepen/concrete-docker"
-    },
-    {
-      "name": "Java Integration Example",
-      "endDate": "2025-07-08",
-      "description": "A sample third party integration written in Java. Meant as an educational tool - it illustrates design patterns, techniques, and best practices commonly used in Java backend projects",
-      "url": "https://github.com/paulthepen/javaSample"
-    },
-    {
-      "name": "Bootstrap Showcase",
-      "endDate": "2023-08-30",
-      "description": "Sample static website that illustrates understanding of bootstrap css and js usage.",
-      "url": "https://paulthepen.github.io/ebookbootstrap/"
-    },
-    {
-      "name": "Lights Out",
-      "endDate": "2022-07-23",
-      "description": "Recreated the classic \"Lights Out\" puzzle in Vue.js as a logic-game challenge.",
-      "url": "https://paulthepen.github.io/lightsOut/"
-    },
-    {
-      "name": "Vue Snake",
-      "endDate": "2022-07-21",
-      "description": "Built a responsive Snake game in Vue.js as a component-driven learning exercise.",
-      "url": "https://paulthepen.github.io/vueSnake/"
+      "institution": "Southern New Hampshire University",
+      "url": "https://www.snhu.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2018-01-01",
+      "endDate": "2019-08-01"
     }
   ],
   "skills": [
     {
-      "name": "Languages/Frameworks",
+      "name": "Customer Onboarding & Success",
+      "keywords": [
+        "Client Onboarding",
+        "Project Management",
+        "Stakeholder Alignment",
+        "Process Improvement",
+        "Training & Documentation"
+      ]
+    },
+    {
+      "name": "Technical Skills",
       "keywords": [
         "HTML",
         "CSS",
         "JavaScript",
-        "Java",
-        "PHP",
-        "Typescript",
-        "MySQL",
-        "JQuery",
-        "Python",
+        "APIs",
         "React",
         "Vue",
-        "FastAPI",
-        "Three.js",
-        "Bootstrap",
-        "Tailwinds",
-        "RESTful API"
-      ]
-    },
-    {
-      "name": "Testing",
-      "keywords": [
-        "JUnit",
-        "PhpUnit",
-        "Selenium",
-        "Mockito",
-        "Cypress"
-      ]
-    },
-    {
-      "name": "SDLC/DevOps Tools",
-      "keywords": [
-        "AWS (in progress)",
         "Docker",
-        "Git",
-        "Github",
-        "Bitbucket"
+        "MySQL",
+        "PHP",
+        "REST/GraphQL"
       ]
     },
     {
-      "name": "Platforms",
+      "name": "Tools & Platforms",
       "keywords": [
-        "Microsoft 365",
-        "GSuite",
-        "Linux",
-        "MacOS",
-        "Windows",
-        "Hyper-V",
-        "Wordpress",
-        "Concrete CMS"
-      ]
-    },
-    {
-      "name": "Project Management",
-      "keywords": [
-        "Auto Task",
+        "Asana",
         "ClickUp",
         "monday.com",
-        "Asana",
-        "Repairshopr",
-        "Solarwinds"
-      ]
-    },
-    {
-      "name": "Hardware",
-      "keywords": [
-        "Unifi/Ubiquiti Systems",
-        "VOIP Systems",
-        "Sonicwall",
-        "PC Repair",
-        "Mac Repair"
-      ]
-    },
-    {
-      "name": "Learning",
-      "keyword": [
-        "AWS (pursuing certification"
+        "Git/GitHub",
+        "Microsoft 365",
+        "GSuite",
+        "Linux/Windows/MacOS"
       ]
     }
   ]
