@@ -60,3 +60,91 @@
         "Implemented unit and integration tests to ensure code quality"
       ]
     },
+    {
+      "name": "Unbound Digital",
+      "position": "Help Desk Manager / Project Manager",
+      "url": "https://unbounddigital.net",
+      "startDate": "2018-05-01",
+      "endDate": "2020-11-30",
+      "highlights": [
+        "Managed Help Desk team growth from 1 to 5 members while overseeing 100+ client accounts",
+        "Led client projects including migrations from on-premise servers to Microsoft 365, coordinating teams and technical requirements",
+        "Developed and documented workflows, improving operational efficiency and service delivery",
+        "Provided mentorship and guidance to junior technical staff",
+        "Communicated complex technical solutions clearly to non-technical stakeholders"
+      ]
+    },
+    {
+      "name": "Premier Dental Lab",
+      "position": "Digital Dentistry inLab Specialist",
+      "url": "https://premierdentalarts.net",
+      "startDate": "2017-02-01",
+      "endDate": "2018-04-30",
+      "highlights": [
+        "Implemented CAD/CAM and 3D printing systems, supporting precise technical workflows",
+        "Maintained lab computer systems and trained staff in software use"
+      ]
+    },
+    {
+      "name": "Gray Station Dental",
+      "position": "Lead Dental Assistant",
+      "url": "https://graystationdental.com",
+      "startDate": "2007-02-01",
+      "endDate": "2017-02-28",
+      "highlights": [
+        "Led 3-person team coordinating clinical operations and schedules",
+        "Managed equipment installs and documentation exceeding compliance standards"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Southern New Hampshire University",
+      "url": "https://www.snhu.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2018-01-01",
+      "endDate": "2019-08-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend & Backend Development",
+      "keywords": [
+        "React",
+        "Vue.js",
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "PHP",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "APIs (REST, GraphQL, custom)"
+      ]
+    },
+    {
+      "name": "DevOps & Testing",
+      "keywords": [
+        "Docker",
+        "CI/CD pipelines",
+        "Linux",
+        "JUnit",
+        "PhpUnit",
+        "Selenium",
+        "Cypress",
+        "Test-Driven Development"
+      ]
+    },
+    {
+      "name": "Collaboration & Leadership",
+      "keywords": [
+        "Mentorship",
+        "Cross-Functional Collaboration",
+        "Agile/Scrum/Kanban",
+        "Project Management",
+        "Technical Documentation"
+      ]
+    }
+  ]
+}
