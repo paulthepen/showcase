@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "IT Specialist | Healthcare IT | Microsoft 365 • Azure • EHR Support",
+    "label": "IT Project Manager | Healthcare IT | Microsoft 365 • SharePoint • Teams • ServiceNow",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "IT professional with extensive experience supporting healthcare environments, managing EHR systems, and ensuring HIPAA-compliant IT operations. Skilled in end-user support, system administration, project management, and IT security. Adept at working independently or coordinating with external IT providers to maintain efficient, secure, and reliable healthcare technology workflows.",
+    "summary": "Experienced IT professional with expertise in healthcare IT project management, end-user support, and technology implementation. Skilled at coordinating cross-functional teams, managing vendor relationships, and overseeing IT projects including software upgrades, migrations, and system implementations. Adept at documenting project plans, maintaining timelines, and delivering actionable reporting for stakeholders while ensuring HIPAA compliance and secure, efficient IT operations.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -28,16 +28,16 @@
   "work": [
     {
       "name": "Unbound Digital",
-      "position": "Help Desk Manager / Project Manager",
+      "position": "Help Desk Manager / IT Project Manager",
       "url": "https://unbounddigital.net",
       "startDate": "2018-05-01",
       "endDate": "2020-11-30",
       "highlights": [
-        "Managed a Help Desk team supporting 1,400+ devices for healthcare and business clients",
-        "Oversaw migrations from on-premises servers to Microsoft 365, including Exchange, SharePoint, Teams, and Intune",
-        "Maintained HIPAA-compliant environments and implemented IT security policies",
-        "Provided on-site and remote end-user support for staff and clinical teams",
-        "Coordinated with external vendors to resolve IT issues and optimize workflows"
+        "Managed IT projects and help desk support for 100+ clients, including healthcare organizations, ensuring on-time completion and client satisfaction",
+        "Led company-wide migrations from on-premises servers to Microsoft 365, including Exchange, SharePoint, Teams, and Intune",
+        "Implemented IT policies and workflows to maintain HIPAA-compliant systems and improve operational efficiency",
+        "Coordinated with vendors, cross-functional teams, and clients to ensure clear communication and timely project delivery",
+        "Created project documentation, timelines, and dashboards to provide actionable insights for leadership and stakeholders"
       ]
     },
     {
@@ -47,9 +47,9 @@
       "startDate": "2017-02-01",
       "endDate": "2018-04-30",
       "highlights": [
-        "Supported digital dental lab systems and clinical devices in a healthcare environment",
-        "Maintained networked systems, CAD/CAM software, 3D printers, and milling machines",
-        "Collaborated with clinicians to ensure technology supported efficient patient care"
+        "Managed digital lab systems and clinical IT infrastructure",
+        "Collaborated with clinicians to implement and maintain technology solutions supporting patient care",
+        "Ensured proper data handling and security in compliance with healthcare standards"
       ]
     },
     {
@@ -59,9 +59,9 @@
       "startDate": "2007-02-01",
       "endDate": "2017-02-28",
       "highlights": [
-        "Led clinical team operations across 6 treatment rooms",
-        "Managed IT-related installs, documentation, and device support in compliance with healthcare standards",
-        "Supported staff and patient use of technology for clinical workflows"
+        "Oversaw daily operations and supported IT systems within the clinical environment",
+        "Coordinated with staff and vendors on technology deployments and maintenance",
+        "Ensured compliance with data security and clinical standards"
       ]
     },
     {
@@ -71,9 +71,9 @@
       "startDate": "2022-04-16",
       "endDate": "2025-06-25",
       "highlights": [
-        "Provided technical support for software, hardware, and network environments",
-        "Managed deployments using Docker, cloud infrastructure, and server management",
-        "Authored technical documentation and trained end-users on software and IT systems"
+        "Supported enterprise clients with software, hardware, and IT infrastructure issues",
+        "Managed deployments using Docker, cloud infrastructure, and server administration",
+        "Developed technical documentation and trained end-users to optimize workflows"
       ]
     }
   ],
@@ -89,32 +89,32 @@
   ],
   "skills": [
     {
-      "name": "Healthcare IT & System Administration",
+      "name": "Healthcare IT & Project Management",
       "keywords": [
-        "EHR system management (AthenaPractice familiarity)",
+        "IT project planning and execution",
+        "Cross-functional team coordination",
+        "Vendor and stakeholder management",
         "HIPAA compliance and IT security",
+        "Documentation, dashboards, and reporting"
+      ]
+    },
+    {
+      "name": "Technical Expertise",
+      "keywords": [
+        "Microsoft 365, SharePoint, Teams, Azure, Active Directory, Intune",
+        "ServiceNow ticketing and project tracking",
         "Windows & Mac support",
-        "Office 365 / Azure / Active Directory / Intune / Teams",
-        "Citrix VDA & AVD",
-        "VOIP and remote management"
+        "VOIP and network systems",
+        "Software upgrades and system implementations"
       ]
     },
     {
-      "name": "Technical Support & Project Management",
+      "name": "Leadership & Communication",
       "keywords": [
-        "End-user troubleshooting and support",
-        "IT project coordination and software installations",
-        "Device deployment and maintenance",
-        "Collaboration with external MSPs",
-        "Team leadership and workflow optimization"
-      ]
-    },
-    {
-      "name": "Development & Technical Skills",
-      "keywords": [
-        "Full stack development and API integration",
-        "Docker, cloud deployments, server management",
-        "Technical documentation and end-user training"
+        "Help Desk management",
+        "Client and team communication",
+        "Training and mentorship",
+        "Process improvement and workflow optimization"
       ]
     }
   ]
