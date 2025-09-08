@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "IT Technician | MSP & Healthcare IT Support | Microsoft 365 • Azure • Hardware/Software Support",
+    "label": "IT Specialist | Healthcare IT | Microsoft 365 • Azure • EHR Support",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Experienced IT professional with a background in MSP support and healthcare technology. Skilled in managing end-user support for hardware, software, and clinical systems, overseeing IT projects, and maintaining networked environments. Adept at troubleshooting, collaborating with teams, and providing clear guidance to non-technical users, with a strong focus on reliability and patient-centered outcomes.",
+    "summary": "IT professional with extensive experience supporting healthcare environments, managing EHR systems, and ensuring HIPAA-compliant IT operations. Skilled in end-user support, system administration, project management, and IT security. Adept at working independently or coordinating with external IT providers to maintain efficient, secure, and reliable healthcare technology workflows.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -28,16 +28,16 @@
   "work": [
     {
       "name": "Unbound Digital",
-      "position": "Help Desk Manager / Office 365 Admin",
+      "position": "Help Desk Manager / Project Manager",
       "url": "https://unbounddigital.net",
       "startDate": "2018-05-01",
       "endDate": "2020-11-30",
       "highlights": [
-        "Managed Help Desk team, scaling from 1 to 5 members while maintaining high client satisfaction",
-        "Supported 1,400+ devices across 100+ healthcare and business clients, ensuring uptime and compliance",
-        "Directed IT projects including migrating companies from on-premises servers to Microsoft 365 (Exchange, SharePoint, Teams, Intune)",
-        "Installed and supported client/server networks, peer-to-peer systems, and clinical devices",
-        "Communicated complex technical issues clearly to non-technical users, aligning with SLAs"
+        "Managed a Help Desk team supporting 1,400+ devices for healthcare and business clients",
+        "Oversaw migrations from on-premises servers to Microsoft 365, including Exchange, SharePoint, Teams, and Intune",
+        "Maintained HIPAA-compliant environments and implemented IT security policies",
+        "Provided on-site and remote end-user support for staff and clinical teams",
+        "Coordinated with external vendors to resolve IT issues and optimize workflows"
       ]
     },
     {
@@ -47,9 +47,9 @@
       "startDate": "2017-02-01",
       "endDate": "2018-04-30",
       "highlights": [
-        "Supported and maintained dental CAD/CAM systems, 3D printers, and milling machines in a clinical environment",
-        "Provided technical support for computer systems and networked devices",
-        "Collaborated with dentists and staff to ensure reliable technology workflows in patient care"
+        "Supported digital dental lab systems and clinical devices in a healthcare environment",
+        "Maintained networked systems, CAD/CAM software, 3D printers, and milling machines",
+        "Collaborated with clinicians to ensure technology supported efficient patient care"
       ]
     },
     {
@@ -59,9 +59,9 @@
       "startDate": "2007-02-01",
       "endDate": "2017-02-28",
       "highlights": [
-        "Led a 3-person team coordinating daily operations across 6 treatment rooms",
-        "Managed IT-related installs and documentation exceeding healthcare requirements",
-        "Supported staff and patients with technical issues related to clinical systems and devices"
+        "Led clinical team operations across 6 treatment rooms",
+        "Managed IT-related installs, documentation, and device support in compliance with healthcare standards",
+        "Supported staff and patient use of technology for clinical workflows"
       ]
     },
     {
@@ -71,9 +71,9 @@
       "startDate": "2022-04-16",
       "endDate": "2025-06-25",
       "highlights": [
-        "Maintained enterprise software platforms and provided technical support for client environments",
-        "Managed deployments using Docker and cloud infrastructure",
-        "Authored technical documentation and trained end-users on software and hardware usage"
+        "Provided technical support for software, hardware, and network environments",
+        "Managed deployments using Docker, cloud infrastructure, and server management",
+        "Authored technical documentation and trained end-users on software and IT systems"
       ]
     }
   ],
@@ -89,31 +89,32 @@
   ],
   "skills": [
     {
-      "name": "IT Support & Healthcare Technology",
+      "name": "Healthcare IT & System Administration",
       "keywords": [
-        "End-user hardware/software support",
-        "Clinical systems support",
-        "Microsoft 365 / Azure / Intune / Teams",
-        "Server and network setup",
-        "Device maintenance and troubleshooting"
+        "EHR system management (AthenaPractice familiarity)",
+        "HIPAA compliance and IT security",
+        "Windows & Mac support",
+        "Office 365 / Azure / Active Directory / Intune / Teams",
+        "Citrix VDA & AVD",
+        "VOIP and remote management"
       ]
     },
     {
-      "name": "Project & Team Management",
+      "name": "Technical Support & Project Management",
       "keywords": [
-        "Help Desk management",
-        "Client onboarding and IT project coordination",
-        "Team leadership and workflow optimization",
-        "PSA tools (Autotask, Solarwinds, RepairShopr)"
+        "End-user troubleshooting and support",
+        "IT project coordination and software installations",
+        "Device deployment and maintenance",
+        "Collaboration with external MSPs",
+        "Team leadership and workflow optimization"
       ]
     },
     {
-      "name": "Technical & Development Skills",
+      "name": "Development & Technical Skills",
       "keywords": [
-        "Full stack development",
-        "Docker and cloud deployments",
-        "APIs and software troubleshooting",
-        "CAD/CAM and dental lab technology (bonus)"
+        "Full stack development and API integration",
+        "Docker, cloud deployments, server management",
+        "Technical documentation and end-user training"
       ]
     }
   ]
