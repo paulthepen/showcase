@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "Dental Lab Technician | Digital Dentistry | Former Lead Dental Assistant",
+    "label": "IT Technician | MSP & Healthcare IT Support | Microsoft 365 • Azure • Hardware/Software Support",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Detail-oriented dental professional with over a decade of experience in both clinical and laboratory settings. Skilled in digital dentistry workflows, dental anatomy, impression taking, and working with lab materials and tools. Experienced in CAD/CAM systems, 3D printing, and hands-on lab work such as processing, investing, and model work. A collaborative team player with proven ability to balance precision, efficiency, and patient-focused results.",
+    "summary": "Experienced IT professional with a background in MSP support and healthcare technology. Skilled in managing end-user support for hardware, software, and clinical systems, overseeing IT projects, and maintaining networked environments. Adept at troubleshooting, collaborating with teams, and providing clear guidance to non-technical users, with a strong focus on reliability and patient-centered outcomes.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -27,16 +27,29 @@
   },
   "work": [
     {
+      "name": "Unbound Digital",
+      "position": "Help Desk Manager / Office 365 Admin",
+      "url": "https://unbounddigital.net",
+      "startDate": "2018-05-01",
+      "endDate": "2020-11-30",
+      "highlights": [
+        "Managed Help Desk team, scaling from 1 to 5 members while maintaining high client satisfaction",
+        "Supported 1,400+ devices across 100+ healthcare and business clients, ensuring uptime and compliance",
+        "Directed IT projects including migrating companies from on-premises servers to Microsoft 365 (Exchange, SharePoint, Teams, Intune)",
+        "Installed and supported client/server networks, peer-to-peer systems, and clinical devices",
+        "Communicated complex technical issues clearly to non-technical users, aligning with SLAs"
+      ]
+    },
+    {
       "name": "Premier Dental Lab",
       "position": "Digital Dentistry inLab Specialist",
       "url": "https://premierdentalarts.net",
       "startDate": "2017-02-01",
       "endDate": "2018-04-30",
       "highlights": [
-        "Implemented CAD/CAM systems, 3D printing, and milling workflows for crowns, bridges, and implant restorations",
-        "Processed impressions, created digital models, and ensured precision in restoration fabrication",
-        "Maintained lab equipment and trained staff on proper use of digital tools",
-        "Collaborated with dentists and technicians to meet high-quality restoration standards"
+        "Supported and maintained dental CAD/CAM systems, 3D printers, and milling machines in a clinical environment",
+        "Provided technical support for computer systems and networked devices",
+        "Collaborated with dentists and staff to ensure reliable technology workflows in patient care"
       ]
     },
     {
@@ -46,70 +59,61 @@
       "startDate": "2007-02-01",
       "endDate": "2017-02-28",
       "highlights": [
-        "Worked chairside with dentists to support a wide range of restorative and surgical procedures",
-        "Prepared and articulated impressions, models, and temporaries according to prescriptions",
-        "Trained and supervised a team of 3 assistants, ensuring efficiency and compliance with standards",
-        "Maintained sterilization protocols, lab equipment, and patient records"
+        "Led a 3-person team coordinating daily operations across 6 treatment rooms",
+        "Managed IT-related installs and documentation exceeding healthcare requirements",
+        "Supported staff and patients with technical issues related to clinical systems and devices"
       ]
     },
     {
-      "name": "Unbound Digital",
-      "position": "Help Desk Manager / Project Manager",
-      "url": "https://unbounddigital.net",
-      "startDate": "2018-05-01",
-      "endDate": "2020-11-30",
-      "highlights": [
-        "Managed client-facing IT projects including server migrations and Microsoft 365 transitions",
-        "Led Help Desk support team of 5 technicians"
-      ]
-    },
-    {
-      "name": "Most Recent Roles (IT/Software)",
-      "position": "Developer & IT Professional",
-      "startDate": "2020-12-01",
+      "name": "Hawkins Computer Services",
+      "position": "Full Stack Developer / IT Support",
+      "url": "https://bookonthebrightside.com",
+      "startDate": "2022-04-16",
       "endDate": "2025-06-25",
       "highlights": [
-        "Worked in IT and software development roles, gaining strong attention to detail and technical problem-solving skills",
-        "Experience in highly regulated, client-facing environments where accuracy and documentation were critical"
+        "Maintained enterprise software platforms and provided technical support for client environments",
+        "Managed deployments using Docker and cloud infrastructure",
+        "Authored technical documentation and trained end-users on software and hardware usage"
       ]
     }
   ],
   "education": [
     {
-      "institution": "High School Diploma",
-      "area": "General Studies",
-      "studyType": "Diploma"
+      "institution": "Southern New Hampshire University",
+      "url": "https://www.snhu.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2018-01-01",
+      "endDate": "2019-08-01"
     }
   ],
   "skills": [
     {
-      "name": "Dental Laboratory Skills",
+      "name": "IT Support & Healthcare Technology",
       "keywords": [
-        "Model work (fixed and removable cases)",
-        "Processing dentures, partials, night guards",
-        "Investing and packing",
-        "CAD/CAM systems",
-        "3D printing and milling"
+        "End-user hardware/software support",
+        "Clinical systems support",
+        "Microsoft 365 / Azure / Intune / Teams",
+        "Server and network setup",
+        "Device maintenance and troubleshooting"
       ]
     },
     {
-      "name": "Clinical & Dental Knowledge",
+      "name": "Project & Team Management",
       "keywords": [
-        "Tooth anatomy",
-        "Impressions and articulations",
-        "Restorative dentistry",
-        "Materials: stones, acrylic, investments",
-        "Patient-focused teamwork"
+        "Help Desk management",
+        "Client onboarding and IT project coordination",
+        "Team leadership and workflow optimization",
+        "PSA tools (Autotask, Solarwinds, RepairShopr)"
       ]
     },
     {
-      "name": "Tools & Equipment",
+      "name": "Technical & Development Skills",
       "keywords": [
-        "Wet Grinder",
-        "Lathe",
-        "Handpiece",
-        "Boil Out",
-        "Sharp tools/instruments"
+        "Full stack development",
+        "Docker and cloud deployments",
+        "APIs and software troubleshooting",
+        "CAD/CAM and dental lab technology (bonus)"
       ]
     }
   ]
