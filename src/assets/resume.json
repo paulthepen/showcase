@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "Technical Onboarding Manager | SaaS • Project Management • Client Success",
+    "label": "Senior Full Stack Developer | React • Java • PHP • Docker • MySQL",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Customer-focused SaaS professional with 5+ years of experience in onboarding, project management, and technical delivery. Skilled at guiding clients through the end-to-end onboarding process, aligning internal teams, and ensuring successful deployments. Strong technical foundation in web technologies (HTML, JavaScript, APIs, Docker) with a proven ability to bridge the gap between technical and non-technical stakeholders.",
+    "summary": "Senior Full Stack Developer with 5+ years of experience designing, building, and maintaining scalable web applications. Skilled in React, Java, PHP, MySQL, API development, and Docker-based deployments. Experienced in test-driven development, cross-functional collaboration, and mentoring junior developers to deliver high-quality, reliable software.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -33,17 +33,17 @@
   "work": [
     {
       "name": "Hawkins Computer Services (Brightside SaaS Platform)",
-      "position": "Technical Onboarding & Full Stack Developer",
+      "position": "Full Stack Developer",
       "url": "https://bookonthebrightside.com",
       "startDate": "2022-04-16",
       "endDate": "2025-06-25",
       "highlights": [
-        "Led onboarding for all new SaaS clients, serving as the primary point of contact from contract through successful deployment",
-        "Conducted kickoff calls, gathered requirements, and aligned stakeholders to ensure clear expectations and success criteria",
-        "Collaborated with cross-functional teams (strategy, analytics, development) to deliver seamless onboarding experiences",
-        "Documented processes, authored technical guides, and provided end-user training to support adoption",
-        "Built and integrated solutions using REST, GraphQL, and custom APIs, ensuring smooth technical implementation",
-        "Co-led front-end migration from GWT to Vue.js, modernizing client-facing interfaces"
+        "Maintained and enhanced enterprise Java/GWT application, refactoring legacy code and implementing test-driven development",
+        "Co-led front-end migration from GWT to Vue.js, modernizing client interfaces",
+        "Developed and maintained multiple APIs (REST, GraphQL, custom) to support client integrations",
+        "Implemented automated testing pipelines to ensure reliable deployments",
+        "Managed deployments using Docker and cloud infrastructure, ensuring scalable and stable environments",
+        "Authored technical documentation and mentored junior developers on full-stack best practices"
       ]
     },
     {
@@ -53,97 +53,10 @@
       "startDate": "2020-12-01",
       "endDate": "2022-04-13",
       "highlights": [
-        "Co-designed and built a React/TypeScript point-of-sale platform for national distributors",
-        "Redesigned and rebuilt checkout/cart systems, improving usability and client satisfaction",
-        "Developed internal and client-facing tools using PHP, JavaScript, MySQL, and React within a custom MVC framework",
-        "Collaborated with 10-person development team using Agile workflows, GitHub, and Asana"
+        "Co-designed and built React/TypeScript point-of-sale platform with responsive, user-friendly interfaces",
+        "Redesigned and rebuilt checkout/cart system, improving UX and maintainability",
+        "Developed backend services and APIs using PHP, JavaScript, and MySQL within a custom MVC framework",
+        "Collaborated with 10-person team using GitHub, Asana, and Agile workflows",
+        "Implemented unit and integration tests to ensure code quality"
       ]
     },
-    {
-      "name": "Unbound Digital",
-      "position": "Help Desk Manager / Project Manager",
-      "url": "https://unbounddigital.net",
-      "startDate": "2018-05-01",
-      "endDate": "2020-11-30",
-      "highlights": [
-        "Managed Help Desk team growth from 1 to 5 members while overseeing 100+ client accounts",
-        "Led complex client projects such as migrating entire organizations from on-premise servers to Microsoft 365, creating detailed plans and coordinating stakeholders to ensure seamless transitions",
-        "Developed onboarding workflows, KPIs, and documentation to improve support efficiency and customer satisfaction",
-        "Monitored and maintained 1,400+ devices across diverse business environments",
-        "Installed and configured client/server networks and cloud systems, ensuring smooth deployments",
-        "Communicated complex technical issues and project updates clearly to non-technical stakeholders"
-      ]
-    },
-    {
-      "name": "Premier Dental Lab",
-      "position": "Digital Dentistry inLab Specialist",
-      "url": "https://premierdentalarts.net",
-      "startDate": "2017-02-01",
-      "endDate": "2018-04-30",
-      "highlights": [
-        "Implemented and trained staff on advanced CAD/CAM software and 3D printing systems",
-        "Maintained lab computer systems and supported end users in a technical environment"
-      ]
-    },
-    {
-      "name": "Gray Station Dental",
-      "position": "Lead Dental Assistant",
-      "url": "https://graystationdental.com",
-      "startDate": "2007-02-01",
-      "endDate": "2017-02-28",
-      "highlights": [
-        "Led 3-person team coordinating daily clinical operations and schedules",
-        "Managed equipment installs and documentation, exceeding compliance standards"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Southern New Hampshire University",
-      "url": "https://www.snhu.edu/",
-      "area": "Computer Science",
-      "studyType": "Bachelor of Science",
-      "startDate": "2018-01-01",
-      "endDate": "2019-08-01"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Customer Onboarding & Success",
-      "keywords": [
-        "Client Onboarding",
-        "Project Management",
-        "Stakeholder Alignment",
-        "Process Improvement",
-        "Training & Documentation"
-      ]
-    },
-    {
-      "name": "Technical Skills",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "APIs",
-        "React",
-        "Vue",
-        "Docker",
-        "MySQL",
-        "PHP",
-        "REST/GraphQL"
-      ]
-    },
-    {
-      "name": "Tools & Platforms",
-      "keywords": [
-        "Asana",
-        "ClickUp",
-        "monday.com",
-        "Git/GitHub",
-        "Microsoft 365",
-        "GSuite",
-        "Linux/Windows/MacOS"
-      ]
-    }
-  ]
-}
