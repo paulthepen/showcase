@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "Senior Full Stack Developer | React • Java • PHP • Docker • MySQL",
+    "label": "IT Project Manager | MSP • Microsoft 365 • Azure • Client Onboarding",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Senior Full Stack Developer with 5+ years of experience designing, building, and maintaining scalable web applications. Skilled in React, Java, PHP, MySQL, API development, and Docker-based deployments. Experienced in test-driven development, cross-functional collaboration, and mentoring junior developers to deliver high-quality, reliable software.",
+    "summary": "Experienced IT Project Manager and former MSP Help Desk Manager with a background in overseeing client migrations, Microsoft 365 and Azure implementations, and network/server upgrades. Skilled at planning and executing technical projects, managing teams, and fostering strong client relationships. Adept at balancing budgets, timelines, and deliverables while ensuring seamless communication between technical and non-technical stakeholders.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -67,11 +67,12 @@
       "startDate": "2018-05-01",
       "endDate": "2020-11-30",
       "highlights": [
-        "Managed Help Desk team growth from 1 to 5 members while overseeing 100+ client accounts",
-        "Led client projects including migrations from on-premise servers to Microsoft 365, coordinating teams and technical requirements",
-        "Developed and documented workflows, improving operational efficiency and service delivery",
-        "Provided mentorship and guidance to junior technical staff",
-        "Communicated complex technical solutions clearly to non-technical stakeholders"
+        "Managed client-facing IT projects including full server migrations, Microsoft 365 transitions, Azure AD deployments, Intune rollouts, and network upgrades",
+        "Planned and coordinated migrations from on-prem servers to cloud-based infrastructure, ensuring minimal downtime and seamless client adoption",
+        "Led and grew the Help Desk team from 1 to 5 members, overseeing scheduling, KPIs, and workflow improvements",
+        "Acted as primary client liaison during onboarding and project execution, translating technical requirements into clear, actionable plans",
+        "Collaborated with engineers, vendors, and stakeholders to track deliverables, budgets, and risks throughout project lifecycles",
+        "Used PSA tools (Autotask, Solarwinds, RepairShopr) to manage tickets, projects, and resource allocation"
       ]
     },
     {
@@ -109,41 +110,49 @@
   ],
   "skills": [
     {
-      "name": "Frontend & Backend Development",
+      "name": "Project Management",
       "keywords": [
-        "React",
-        "Vue.js",
-        "JavaScript",
-        "TypeScript",
-        "Java",
-        "PHP",
-        "MySQL",
-        "HTML",
-        "CSS",
-        "APIs (REST, GraphQL, custom)"
-      ]
-    },
-    {
-      "name": "DevOps & Testing",
-      "keywords": [
-        "Docker",
-        "CI/CD pipelines",
-        "Linux",
-        "JUnit",
-        "PhpUnit",
-        "Selenium",
-        "Cypress",
-        "Test-Driven Development"
+        "MSP Operations",
+        "Microsoft 365",
+        "Azure AD",
+        "Intune",
+        "SharePoint",
+        "Teams",
+        "Server Migrations",
+        "Network Upgrades",
+        "Firewall Deployments",
+        "PSA Tools (Autotask, Solarwinds, RepairShopr, ConnectWise)"
       ]
     },
     {
       "name": "Collaboration & Leadership",
       "keywords": [
-        "Mentorship",
+        "Client Onboarding",
+        "Team Leadership",
         "Cross-Functional Collaboration",
-        "Agile/Scrum/Kanban",
-        "Project Management",
-        "Technical Documentation"
+        "Process Improvement",
+        "Stakeholder Communication"
+      ]
+    },
+    {
+      "name": "Software Development (Bonus Skills)",
+      "keywords": [
+        "React",
+        "Vue.js",
+        "Java",
+        "PHP",
+        "MySQL",
+        "APIs (REST, GraphQL)"
+      ]
+    },
+    {
+      "name": "DevOps & Infrastructure",
+      "keywords": [
+        "Docker",
+        "Linux",
+        "Windows Server",
+        "Cloud Migrations",
+        "CI/CD Pipelines"
       ]
     }
   ]
