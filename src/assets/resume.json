@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "IT Project Manager | MSP • Microsoft 365 • Azure • Client Onboarding",
+    "label": "Dental Lab Technician | Digital Dentistry | Former Lead Dental Assistant",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Experienced IT Project Manager and former MSP Help Desk Manager with a background in overseeing client migrations, Microsoft 365 and Azure implementations, and network/server upgrades. Skilled at planning and executing technical projects, managing teams, and fostering strong client relationships. Adept at balancing budgets, timelines, and deliverables while ensuring seamless communication between technical and non-technical stakeholders.",
+    "summary": "Detail-oriented dental professional with over a decade of experience in both clinical and laboratory settings. Skilled in digital dentistry workflows, dental anatomy, impression taking, and working with lab materials and tools. Experienced in CAD/CAM systems, 3D printing, and hands-on lab work such as processing, investing, and model work. A collaborative team player with proven ability to balance precision, efficiency, and patient-focused results.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -22,59 +22,10 @@
         "network": "LinkedIn",
         "username": "paulcharpie",
         "url": "https://www.linkedin.com/in/paulcharpie"
-      },
-      {
-        "network": "Github",
-        "username": "paulthepen",
-        "url": "https://github.com/paulthepen"
       }
     ]
   },
   "work": [
-    {
-      "name": "Hawkins Computer Services (Brightside SaaS Platform)",
-      "position": "Full Stack Developer",
-      "url": "https://bookonthebrightside.com",
-      "startDate": "2022-04-16",
-      "endDate": "2025-06-25",
-      "highlights": [
-        "Maintained and enhanced enterprise Java/GWT application, refactoring legacy code and implementing test-driven development",
-        "Co-led front-end migration from GWT to Vue.js, modernizing client interfaces",
-        "Developed and maintained multiple APIs (REST, GraphQL, custom) to support client integrations",
-        "Implemented automated testing pipelines to ensure reliable deployments",
-        "Managed deployments using Docker and cloud infrastructure, ensuring scalable and stable environments",
-        "Authored technical documentation and mentored junior developers on full-stack best practices"
-      ]
-    },
-    {
-      "name": "AAM, USA",
-      "position": "Full Stack Web Developer",
-      "url": "https://theaamgroup.com",
-      "startDate": "2020-12-01",
-      "endDate": "2022-04-13",
-      "highlights": [
-        "Co-designed and built React/TypeScript point-of-sale platform with responsive, user-friendly interfaces",
-        "Redesigned and rebuilt checkout/cart system, improving UX and maintainability",
-        "Developed backend services and APIs using PHP, JavaScript, and MySQL within a custom MVC framework",
-        "Collaborated with 10-person team using GitHub, Asana, and Agile workflows",
-        "Implemented unit and integration tests to ensure code quality"
-      ]
-    },
-    {
-      "name": "Unbound Digital",
-      "position": "Help Desk Manager / Project Manager",
-      "url": "https://unbounddigital.net",
-      "startDate": "2018-05-01",
-      "endDate": "2020-11-30",
-      "highlights": [
-        "Managed client-facing IT projects including full server migrations, Microsoft 365 transitions, Azure AD deployments, Intune rollouts, and network upgrades",
-        "Planned and coordinated migrations from on-prem servers to cloud-based infrastructure, ensuring minimal downtime and seamless client adoption",
-        "Led and grew the Help Desk team from 1 to 5 members, overseeing scheduling, KPIs, and workflow improvements",
-        "Acted as primary client liaison during onboarding and project execution, translating technical requirements into clear, actionable plans",
-        "Collaborated with engineers, vendors, and stakeholders to track deliverables, budgets, and risks throughout project lifecycles",
-        "Used PSA tools (Autotask, Solarwinds, RepairShopr) to manage tickets, projects, and resource allocation"
-      ]
-    },
     {
       "name": "Premier Dental Lab",
       "position": "Digital Dentistry inLab Specialist",
@@ -82,8 +33,10 @@
       "startDate": "2017-02-01",
       "endDate": "2018-04-30",
       "highlights": [
-        "Implemented CAD/CAM and 3D printing systems, supporting precise technical workflows",
-        "Maintained lab computer systems and trained staff in software use"
+        "Implemented CAD/CAM systems, 3D printing, and milling workflows for crowns, bridges, and implant restorations",
+        "Processed impressions, created digital models, and ensured precision in restoration fabrication",
+        "Maintained lab equipment and trained staff on proper use of digital tools",
+        "Collaborated with dentists and technicians to meet high-quality restoration standards"
       ]
     },
     {
@@ -93,66 +46,70 @@
       "startDate": "2007-02-01",
       "endDate": "2017-02-28",
       "highlights": [
-        "Led 3-person team coordinating clinical operations and schedules",
-        "Managed equipment installs and documentation exceeding compliance standards"
+        "Worked chairside with dentists to support a wide range of restorative and surgical procedures",
+        "Prepared and articulated impressions, models, and temporaries according to prescriptions",
+        "Trained and supervised a team of 3 assistants, ensuring efficiency and compliance with standards",
+        "Maintained sterilization protocols, lab equipment, and patient records"
+      ]
+    },
+    {
+      "name": "Unbound Digital",
+      "position": "Help Desk Manager / Project Manager",
+      "url": "https://unbounddigital.net",
+      "startDate": "2018-05-01",
+      "endDate": "2020-11-30",
+      "highlights": [
+        "Managed client-facing IT projects including server migrations and Microsoft 365 transitions",
+        "Led Help Desk support team of 5 technicians"
+      ]
+    },
+    {
+      "name": "Most Recent Roles (IT/Software)",
+      "position": "Developer & IT Professional",
+      "startDate": "2020-12-01",
+      "endDate": "2025-06-25",
+      "highlights": [
+        "Worked in IT and software development roles, gaining strong attention to detail and technical problem-solving skills",
+        "Experience in highly regulated, client-facing environments where accuracy and documentation were critical"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Southern New Hampshire University",
-      "url": "https://www.snhu.edu/",
-      "area": "Computer Science",
-      "studyType": "Bachelor of Science",
-      "startDate": "2018-01-01",
-      "endDate": "2019-08-01"
+      "institution": "High School Diploma",
+      "area": "General Studies",
+      "studyType": "Diploma"
     }
   ],
   "skills": [
     {
-      "name": "Project Management",
+      "name": "Dental Laboratory Skills",
       "keywords": [
-        "MSP Operations",
-        "Microsoft 365",
-        "Azure AD",
-        "Intune",
-        "SharePoint",
-        "Teams",
-        "Server Migrations",
-        "Network Upgrades",
-        "Firewall Deployments",
-        "PSA Tools (Autotask, Solarwinds, RepairShopr, ConnectWise)"
+        "Model work (fixed and removable cases)",
+        "Processing dentures, partials, night guards",
+        "Investing and packing",
+        "CAD/CAM systems",
+        "3D printing and milling"
       ]
     },
     {
-      "name": "Collaboration & Leadership",
+      "name": "Clinical & Dental Knowledge",
       "keywords": [
-        "Client Onboarding",
-        "Team Leadership",
-        "Cross-Functional Collaboration",
-        "Process Improvement",
-        "Stakeholder Communication"
+        "Tooth anatomy",
+        "Impressions and articulations",
+        "Restorative dentistry",
+        "Materials: stones, acrylic, investments",
+        "Patient-focused teamwork"
       ]
     },
     {
-      "name": "Software Development (Bonus Skills)",
+      "name": "Tools & Equipment",
       "keywords": [
-        "React",
-        "Vue.js",
-        "Java",
-        "PHP",
-        "MySQL",
-        "APIs (REST, GraphQL)"
-      ]
-    },
-    {
-      "name": "DevOps & Infrastructure",
-      "keywords": [
-        "Docker",
-        "Linux",
-        "Windows Server",
-        "Cloud Migrations",
-        "CI/CD Pipelines"
+        "Wet Grinder",
+        "Lathe",
+        "Handpiece",
+        "Boil Out",
+        "Sharp tools/instruments"
       ]
     }
   ]
