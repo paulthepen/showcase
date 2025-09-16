@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "IT Project Manager | Healthcare IT | Microsoft 365 • SharePoint • Teams • ServiceNow",
+    "label": "Senior Software Engineer | Cloud & DevOps | Node.js • Angular • React",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Experienced IT professional with expertise in healthcare IT project management, end-user support, and technology implementation. Skilled at coordinating cross-functional teams, managing vendor relationships, and overseeing IT projects including software upgrades, migrations, and system implementations. Adept at documenting project plans, maintaining timelines, and delivering actionable reporting for stakeholders while ensuring HIPAA compliance and secure, efficient IT operations.",
+    "summary": "Senior full-stack developer and IT professional with expertise in modernizing legacy systems into scalable, cloud-native architectures. Skilled in building APIs, data pipelines, and distributed applications using AWS, Node.js, Angular, GraphQL, and Postgres. Experienced with DevOps practices, CI/CD automation, and event-driven frameworks. Adept at managing cross-functional teams, collaborating with vendors, and delivering secure, efficient solutions that directly impact business outcomes.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -27,17 +27,30 @@
   },
   "work": [
     {
+      "name": "Hawkins Computer Services",
+      "position": "Full Stack Developer / IT Consultant",
+      "url": "https://bookonthebrightside.com",
+      "startDate": "2022-04-16",
+      "endDate": "2025-06-25",
+      "highlights": [
+        "Developed and deployed full-stack applications using Java, GWT, PHP, Vue, and PostgreSQL in Dockerized environments",
+        "Implemented CI/CD pipelines and automated testing frameworks to accelerate delivery and reduce defects",
+        "Built APIs and data integrations for clients migrating from legacy platforms to modern, event-driven systems",
+        "Managed cloud infrastructure with GCP, optimizing costs and ensuring scalability",
+        "Designed and executed database migrations, supporting business-critical modernization projects"
+      ]
+    },
+    {
       "name": "Unbound Digital",
       "position": "Help Desk Manager / IT Project Manager",
       "url": "https://unbounddigital.net",
       "startDate": "2018-05-01",
       "endDate": "2020-11-30",
       "highlights": [
-        "Managed IT projects and help desk support for 100+ clients, including healthcare organizations, ensuring on-time completion and client satisfaction",
-        "Led company-wide migrations from on-premises servers to Microsoft 365, including Exchange, SharePoint, Teams, and Intune",
-        "Implemented IT policies and workflows to maintain HIPAA-compliant systems and improve operational efficiency",
-        "Coordinated with vendors, cross-functional teams, and clients to ensure clear communication and timely project delivery",
-        "Created project documentation, timelines, and dashboards to provide actionable insights for leadership and stakeholders"
+        "Led IT modernization projects including server-to-cloud migrations (Microsoft 365, Azure, Exchange, Teams)",
+        "Managed engineering and support teams, overseeing project delivery for 100+ clients",
+        "Developed migration frameworks for clients transitioning off legacy platforms to cloud-native systems",
+        "Coordinated with vendors, engineers, and stakeholders to ensure successful implementation of new services"
       ]
     },
     {
@@ -47,33 +60,8 @@
       "startDate": "2017-02-01",
       "endDate": "2018-04-30",
       "highlights": [
-        "Managed digital lab systems and clinical IT infrastructure",
-        "Collaborated with clinicians to implement and maintain technology solutions supporting patient care",
-        "Ensured proper data handling and security in compliance with healthcare standards"
-      ]
-    },
-    {
-      "name": "Gray Station Dental",
-      "position": "Lead Dental Assistant",
-      "url": "https://graystationdental.com",
-      "startDate": "2007-02-01",
-      "endDate": "2017-02-28",
-      "highlights": [
-        "Oversaw daily operations and supported IT systems within the clinical environment",
-        "Coordinated with staff and vendors on technology deployments and maintenance",
-        "Ensured compliance with data security and clinical standards"
-      ]
-    },
-    {
-      "name": "Hawkins Computer Services",
-      "position": "Full Stack Developer / IT Support",
-      "url": "https://bookonthebrightside.com",
-      "startDate": "2022-04-16",
-      "endDate": "2025-06-25",
-      "highlights": [
-        "Supported enterprise clients with software, hardware, and IT infrastructure issues",
-        "Managed deployments using Docker, cloud infrastructure, and server administration",
-        "Developed technical documentation and trained end-users to optimize workflows"
+        "Supported digital workflows with CAD/CAM and clinical software integrations",
+        "Optimized IT systems to support medical device workflows and data pipelines"
       ]
     }
   ],
@@ -89,32 +77,45 @@
   ],
   "skills": [
     {
-      "name": "Healthcare IT & Project Management",
+      "name": "Full-Stack Development",
       "keywords": [
-        "IT project planning and execution",
-        "Cross-functional team coordination",
-        "Vendor and stakeholder management",
-        "HIPAA compliance and IT security",
-        "Documentation, dashboards, and reporting"
+        "Node.js",
+        "TypeScript",
+        "Angular",
+        "React",
+        "GraphQL",
+        "Postgres",
+        "API Development"
       ]
     },
     {
-      "name": "Technical Expertise",
+      "name": "Cloud & DevOps",
       "keywords": [
-        "Microsoft 365, SharePoint, Teams, Azure, Active Directory, Intune",
-        "ServiceNow ticketing and project tracking",
-        "Windows & Mac support",
-        "VOIP and network systems",
-        "Software upgrades and system implementations"
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Testing Frameworks",
+        "Server Migrations"
       ]
     },
     {
-      "name": "Leadership & Communication",
+      "name": "Data Engineering & Event-Driven Systems",
       "keywords": [
-        "Help Desk management",
-        "Client and team communication",
-        "Training and mentorship",
-        "Process improvement and workflow optimization"
+        "Kafka",
+        "Data Pipelines",
+        "Database Migrations",
+        "ETL Processes",
+        "Event-Driven Architectures"
+      ]
+    },
+    {
+      "name": "Leadership & Collaboration",
+      "keywords": [
+        "Team Management",
+        "Vendor Coordination",
+        "Agile Methodologies",
+        "Cross-Functional Communication"
       ]
     }
   ]
