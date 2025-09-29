@@ -9,7 +9,7 @@
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Detail-oriented Dental Lab Technician with hands-on experience in digital dentistry, CAD/CAM workflows, and the design and fabrication of dental prostheses. Skilled in operating precision equipment including 3D printers, milling machines, and inLab CAD/CAM software. Known for technical accuracy, fine motor skills, and ability to collaborate with dentists and lab staff to produce high-quality results.",
+    "summary": "Detail-oriented CAD/CAM Dental Lab Technician with hands-on experience in digital dentistry, CAD/CAM workflows, and the design and fabrication of dental prostheses. Skilled in operating precision equipment including 3D printers, milling machines, and inLab CAD/CAM software. Known for technical accuracy, fine motor skills, and ability to collaborate with dentists and lab staff to produce high-quality results.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -35,8 +35,7 @@
       "highlights": [
         "Designed and fabricated fixed and removable dental prostheses using Dentsply inLab CAD/CAM software",
         "Operated 3D printers and milling machines with high precision to produce accurate restorations",
-        "Maintained computer systems and networked lab devices to support dental workflows",
-        "Processed and invested dentures, partials, and night guards according to prescriptions"
+        "Maintained computer systems and networked lab devices to support dental workflows"
       ]
     },
     {
@@ -49,7 +48,8 @@
         "Led 3-person team coordinating daily clinical operations across 6 treatment rooms",
         "Supported dentists with procedures requiring detailed knowledge of tooth anatomy",
         "Managed equipment installs, sterilization processes, and documentation exceeding healthcare requirements",
-        "Prepared impressions, articulated models, and assisted in laboratory-related tasks"
+        "Prepared impressions, articulated models, and assisted in laboratory-related tasks",
+        "Utilized Denstply Sirona's CEREC software to digitally image restoration preparations and design and fabricate dental prostheses"
       ]
     },
     {
@@ -79,6 +79,10 @@
     {
       "name": "Digital Dentistry Portfolio",
       "description": "Hands-on experience with CAD/CAM workflows, including designing, milling, and finishing dental prosthetics. Operated 3D printers, lathes, and hand tools for investment, processing, and fabrication."
+    },
+    {
+      "name": "Case Study published in JDT magazine",
+      "description": "Wrote a case study for the JDT magazine published in 2018 detailing the process to create virtual tooth preparations and guides using Dentsply inLab CAD/CAM software."
     }
   ],
   "skills": [
@@ -91,8 +95,7 @@
         "Dentsply inLab",
         "3D Printing",
         "Milling Machines",
-        "Acrylic Processing",
-        "Impressions & Margins"
+        "Taking and analyzing impressions"
       ]
     },
     {
