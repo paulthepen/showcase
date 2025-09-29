@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "Dental Lab Technician | Digital Dentistry • Prosthetics • CAD/CAM",
+    "label": "Dental Operations Lead | Patient Care • Treatment Coordination • Insurance Management",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Detail-oriented CAD/CAM Dental Lab Technician with hands-on experience in digital dentistry, CAD/CAM workflows, and the design and fabrication of dental prostheses. Skilled in operating precision equipment including 3D printers, milling machines, and inLab CAD/CAM software. Known for technical accuracy, fine motor skills, and ability to collaborate with dentists and lab staff to produce high-quality results.",
+    "summary": "Dental Operations Lead and former Registered Expanded Functions Dental Assistant with extensive experience in patient care, treatment coordination, insurance management, and front-office operations. Skilled in supervising teams, managing workflows, and optimizing practice performance. Adept at providing compassionate patient service, ensuring compliance with dental standards, and collaborating with dental teams to deliver exceptional care.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -27,6 +27,48 @@
   },
   "work": [
     {
+      "name": "Gray Station Dental",
+      "position": "Lead Dental Assistant / Front Office Coordinator",
+      "url": "https://graystationdental.com",
+      "startDate": "2007-02-01",
+      "endDate": "2017-02-28",
+      "highlights": [
+        "Supervised a 3-person team coordinating clinical and front-office operations across 6 treatment rooms",
+        "Provided superior patient service, scheduling, and insurance verification to ensure positive patient experiences",
+        "Managed treatment plan workflows, equipment installs, sterilization, and documentation compliance",
+        "Trained and guided staff on office procedures and workflows to optimize practice efficiency",
+        "Prepared impressions, articulated models, and assisted in laboratory-related tasks",
+        "Utilized Denstply Sirona's CEREC software to support both clinical and administrative workflows"
+      ]
+    },
+    {
+      "name": "Blue Ridge Family Dentistry",
+      "position": "Dental Assistant / Expanded Functions",
+      "url": "https://blueridgefamilydentistry.com",
+      "startDate": "2010-04-01",
+      "endDate": "2013-04-30",
+      "highlights": [
+        "Obtained expanded functions licensure and performed restorative and preventive procedures under supervision",
+        "Designed and implemented the practice's treatment plan procedure from scratch to streamline patient care",
+        "Assisted dentists with procedures while maintaining patient comfort and safety",
+        "Coordinated patient schedules, insurance verification, and treatment follow-ups",
+        "Enhanced patient experience through education and clear communication"
+      ]
+    },
+    {
+      "name": "eAssist Dental Solutions",
+      "position": "Dental Insurance Specialist",
+      "url": "https://eassistdental.com",
+      "startDate": "2024-06-01",
+      "endDate": "2024-12-31",
+      "highlights": [
+        "Managed dental insurance claims, prior authorizations, and patient billing inquiries",
+        "Worked directly with insurance providers to verify coverage and maximize reimbursement",
+        "Provided exceptional customer service to patients and dental offices, resolving insurance issues efficiently",
+        "Coordinated with dental office staff to ensure accurate billing and insurance coverage verification"
+      ]
+    },
+    {
       "name": "Premier Dental Lab",
       "position": "Digital Dentistry inLab Specialist",
       "url": "https://premierdentalarts.net",
@@ -35,33 +77,21 @@
       "highlights": [
         "Designed and fabricated fixed and removable dental prostheses using Dentsply inLab CAD/CAM software",
         "Operated 3D printers and milling machines with high precision to produce accurate restorations",
-        "Maintained computer systems and networked lab devices to support dental workflows"
-      ]
-    },
-    {
-      "name": "Gray Station Dental",
-      "position": "Lead Dental Assistant",
-      "url": "https://graystationdental.com",
-      "startDate": "2007-02-01",
-      "endDate": "2017-02-28",
-      "highlights": [
-        "Led 3-person team coordinating daily clinical operations across 6 treatment rooms",
-        "Supported dentists with procedures requiring detailed knowledge of tooth anatomy",
-        "Managed equipment installs, sterilization processes, and documentation exceeding healthcare requirements",
-        "Prepared impressions, articulated models, and assisted in laboratory-related tasks",
-        "Utilized Denstply Sirona's CEREC software to digitally image restoration preparations and design and fabricate dental prostheses"
+        "Maintained computer systems and networked lab devices to support dental workflows",
+        "Collaborated with office staff to ensure smooth workflow and timely patient service"
       ]
     },
     {
       "name": "Unbound Digital",
-      "position": "Help Desk Manager/Office 365 Admin",
+      "position": "Help Desk Manager / Office 365 Admin",
       "url": "https://unbounddigital.net",
       "startDate": "2018-05-01",
       "endDate": "2020-11-30",
       "highlights": [
-        "Applied technical troubleshooting skills to maintain lab and office systems",
-        "Trained clients and staff on use of technical equipment and software",
-        "Demonstrated attention to detail in configuring systems and ensuring quality control"
+        "Maintained office systems and technical infrastructure to ensure smooth daily operations",
+        "Trained staff and clients on software use, workflows, and compliance procedures",
+        "Leveraged data analysis to improve system performance and operational efficiency",
+        "Provided remote and in-person support, demonstrating problem-solving and attention to detail"
       ]
     }
   ],
@@ -77,36 +107,37 @@
   ],
   "projects": [
     {
-      "name": "Digital Dentistry Portfolio",
-      "description": "Hands-on experience with CAD/CAM workflows, including designing, milling, and finishing dental prosthetics. Operated 3D printers, lathes, and hand tools for investment, processing, and fabrication."
-    },
-    {
       "name": "Case Study published in JDT magazine",
       "description": "Wrote a case study for the JDT magazine published in 2018 detailing the process to create virtual tooth preparations and guides using Dentsply inLab CAD/CAM software."
     }
   ],
   "skills": [
     {
-      "name": "Dental Lab Skills",
+      "name": "Dental & Patient Care Skills",
       "keywords": [
+        "Patient Service",
+        "Treatment Coordination",
+        "Insurance Verification & Management",
+        "Front Office Operations",
+        "Scheduling & Appointment Management",
         "Tooth Anatomy",
         "Dental Prosthetics",
         "CAD/CAM Software",
-        "Dentsply inLab",
         "3D Printing",
-        "Milling Machines",
-        "Taking and analyzing impressions"
+        "Milling Machines"
       ]
     },
     {
-      "name": "Technical & Support Skills",
+      "name": "Management & Technical Skills",
       "keywords": [
-        "Equipment Maintenance",
+        "Team Supervision",
+        "Workflow Optimization",
+        "Data Analysis",
+        "Office Systems Management",
         "Microsoft 365",
-        "GSuite",
-        "PC Repair",
-        "Fine Motor Skills",
-        "Attention to Detail"
+        "Attention to Detail",
+        "Compliance & Documentation",
+        "Technical Troubleshooting"
       ]
     }
   ]
