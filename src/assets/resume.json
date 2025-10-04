@@ -4,12 +4,12 @@
   },
   "basics": {
     "name": "Paul Charpie",
-    "label": "Dental Operations Lead | Patient Care • Treatment Coordination • Insurance Management",
+    "label": "Software Engineer | React • Node.js • PostgreSQL",
     "picture": "https://i.imgur.com/qImDQZv.png",
     "image": "https://i.imgur.com/qImDQZv.png",
     "email": "paulcharpie@gmail.com",
     "phone": "(865) 255-4239",
-    "summary": "Dental Operations Lead and former Registered Expanded Functions Dental Assistant with extensive experience in patient care, treatment coordination, insurance management, and front-office operations. Skilled in supervising teams, managing workflows, and optimizing practice performance. Adept at providing compassionate patient service, ensuring compliance with dental standards, and collaborating with dental teams to deliver exceptional care.",
+    "summary": "Full-stack Software Engineer with 5+ years of experience building production web applications using React, Node.js, and PostgreSQL. Skilled in designing scalable architectures, implementing REST APIs, and collaborating with product and engineering teams to deliver high-quality features. Passionate about clean code, continuous improvement, and leveraging technology for meaningful social impact.",
     "location": {
       "address": "186 County Rd 342",
       "postalCode": "TN 37874",
@@ -22,76 +22,41 @@
         "network": "LinkedIn",
         "username": "paulcharpie",
         "url": "https://www.linkedin.com/in/paulcharpie"
+      },
+      {
+        "network": "Github",
+        "username": "paulthepen",
+        "url": "https://github.com/paulthepen"
       }
     ]
   },
   "work": [
     {
-      "name": "Gray Station Dental",
-      "position": "Lead Dental Assistant / Front Office Coordinator",
-      "url": "https://graystationdental.com",
-      "startDate": "2007-02-01",
-      "endDate": "2017-02-28",
+      "name": "Hawkins Computer Services",
+      "position": "Full Stack Developer",
+      "url": "https://bookonthebrightside.com",
+      "startDate": "2022-04-16",
+      "endDate": "2025-06-25",
       "highlights": [
-        "Supervised a 3-person team coordinating clinical and front-office operations across 6 treatment rooms",
-        "Provided superior patient service, scheduling, and insurance verification to ensure positive patient experiences",
-        "Managed treatment plan workflows, equipment installs, sterilization, and documentation compliance",
-        "Trained and guided staff on office procedures and workflows to optimize practice efficiency",
-        "Prepared impressions, articulated models, and assisted in laboratory-related tasks",
-        "Utilized Denstply Sirona's CEREC software to support both clinical and administrative workflows"
+        "Maintained and refactored enterprise Java/GWT rental management app with focus on scalability and clean architecture",
+        "Built 6 third-party integrations (REST, GraphQL, and custom APIs)",
+        "Co-led front-end migration from legacy GWT to Vue.js, modernizing UI and improving maintainability",
+        "Implemented company-wide Test Driven Development (JUnit, PhpUnit, Cypress)",
+        "Deployed apps with Docker and Git-based CI/CD pipelines",
+        "Introduced Agile (Scrum/Kanban) workflows and team-wide code reviews"
       ]
     },
     {
-      "name": "Blue Ridge Family Dentistry",
-      "position": "Dental Assistant / Expanded Functions",
-      "url": "https://blueridgefamilydentistry.com",
-      "startDate": "2010-04-01",
-      "endDate": "2013-04-30",
+      "name": "AAM, USA",
+      "position": "Full Stack Web Developer",
+      "url": "https://theaamgroup.com",
+      "startDate": "2020-12-01",
+      "endDate": "2022-04-13",
       "highlights": [
-        "Obtained expanded functions licensure and performed restorative and preventive procedures under supervision",
-        "Designed and implemented the practice's treatment plan procedure from scratch to streamline patient care",
-        "Assisted dentists with procedures while maintaining patient comfort and safety",
-        "Coordinated patient schedules, insurance verification, and treatment follow-ups",
-        "Enhanced patient experience through education and clear communication"
-      ]
-    },
-    {
-      "name": "eAssist Dental Solutions",
-      "position": "Dental Insurance Specialist",
-      "url": "https://eassistdental.com",
-      "startDate": "2024-06-01",
-      "endDate": "2024-12-31",
-      "highlights": [
-        "Managed dental insurance claims, prior authorizations, and patient billing inquiries",
-        "Worked directly with insurance providers to verify coverage and maximize reimbursement",
-        "Provided exceptional customer service to patients and dental offices, resolving insurance issues efficiently",
-        "Coordinated with dental office staff to ensure accurate billing and insurance coverage verification"
-      ]
-    },
-    {
-      "name": "Premier Dental Lab",
-      "position": "Digital Dentistry inLab Specialist",
-      "url": "https://premierdentalarts.net",
-      "startDate": "2017-02-01",
-      "endDate": "2018-04-30",
-      "highlights": [
-        "Designed and fabricated fixed and removable dental prostheses using Dentsply inLab CAD/CAM software",
-        "Operated 3D printers and milling machines with high precision to produce accurate restorations",
-        "Maintained computer systems and networked lab devices to support dental workflows",
-        "Collaborated with office staff to ensure smooth workflow and timely patient service"
-      ]
-    },
-    {
-      "name": "Unbound Digital",
-      "position": "Help Desk Manager / Office 365 Admin",
-      "url": "https://unbounddigital.net",
-      "startDate": "2018-05-01",
-      "endDate": "2020-11-30",
-      "highlights": [
-        "Maintained office systems and technical infrastructure to ensure smooth daily operations",
-        "Trained staff and clients on software use, workflows, and compliance procedures",
-        "Leveraged data analysis to improve system performance and operational efficiency",
-        "Provided remote and in-person support, demonstrating problem-solving and attention to detail"
+        "Redesigned and rebuilt flagship checkout/cart system, improving performance and user experience",
+        "Co-designed and developed a React/TypeScript point-of-sale platform for 1,000+ users",
+        "Developed internal and client-facing tools with PHP, JavaScript, MySQL, and React in a custom MVC framework",
+        "Collaborated with 10-person development team using GitHub, Asana, and Microsoft Teams"
       ]
     }
   ],
@@ -107,37 +72,66 @@
   ],
   "projects": [
     {
-      "name": "Case Study published in JDT magazine",
-      "description": "Wrote a case study for the JDT magazine published in 2018 detailing the process to create virtual tooth preparations and guides using Dentsply inLab CAD/CAM software."
+      "name": "Movie Search React Showcase",
+      "endDate": "2025-08-22",
+      "description": "React-based movie search SPA built from a Figma design. Demonstrates React, Tailwind CSS, REST API integration, and frontend optimization.",
+      "url": "https://paulthepen.github.io/newMovieViewerReactDemo/"
+    },
+    {
+      "name": "Concrete CMS Docker Stack",
+      "endDate": "2024-10-01",
+      "description": "Packaged Concrete CMS into a Dockerized deployment stack using docker-compose, enabling rapid rollout and scalable deployments.",
+      "url": "https://github.com/paulthepen/concrete-docker"
+    },
+    {
+      "name": "Java Integration Example",
+      "endDate": "2025-07-08",
+      "description": "Educational backend integration project in Java demonstrating design patterns, API development, and testing best practices.",
+      "url": "https://github.com/paulthepen/javaSample"
     }
   ],
   "skills": [
     {
-      "name": "Dental & Patient Care Skills",
+      "name": "Languages & Frameworks",
       "keywords": [
-        "Patient Service",
-        "Treatment Coordination",
-        "Insurance Verification & Management",
-        "Front Office Operations",
-        "Scheduling & Appointment Management",
-        "Tooth Anatomy",
-        "Dental Prosthetics",
-        "CAD/CAM Software",
-        "3D Printing",
-        "Milling Machines"
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "React",
+        "Java",
+        "PHP",
+        "Python",
+        "Vue.js",
+        "RESTful API",
+        "GraphQL"
       ]
     },
     {
-      "name": "Management & Technical Skills",
+      "name": "Databases",
       "keywords": [
-        "Team Supervision",
-        "Workflow Optimization",
-        "Data Analysis",
-        "Office Systems Management",
-        "Microsoft 365",
-        "Attention to Detail",
-        "Compliance & Documentation",
-        "Technical Troubleshooting"
+        "PostgreSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Testing",
+      "keywords": [
+        "JUnit",
+        "PhpUnit",
+        "Mockito",
+        "Cypress",
+        "Selenium"
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Git",
+        "GitHub",
+        "CI/CD",
+        "Agile/Scrum"
       ]
     }
   ]
